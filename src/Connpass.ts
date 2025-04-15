@@ -1,4 +1,5 @@
 import axios, { AxiosInstance } from 'axios'
+import { GetEventsQuery, GetEventsResponse } from '.'
 
 /**
  * Connpass APIクライアントクラス
@@ -49,5 +50,19 @@ export class Connpass {
         throw new Error(`予期しないエラーが発生しました: ${error.message}`)
       }
     }
+  }
+
+  /**
+   * イベント一覧
+   *
+   * 検索クエリの条件に応じたイベント一覧を取得する。
+   *
+   * [APIリファレンス](https://connpass.com/about/api/v2/#tag/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/operation/connpass_event_event_api_v2_views_event_search)
+   *
+   * @param query - イベント検索用のクエリパラメータ（省略可能）
+   * @returns イベント情報レスポンスのPromise
+   */
+  async getEvents(query?: GetEventsQuery): Promise<GetEventsResponse> {
+    return this.request<GetEventsResponse>('events', query)
   }
 }
