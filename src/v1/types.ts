@@ -1,18 +1,18 @@
 type ISO8601 = string
 
-export enum EventOrder {
+export enum EventOrderV1 {
   UPDATED_AT = 1,
   STARTED_AT = 2,
-  CREATED_AT = 3
+  CREATED_AT = 3,
 }
 
-export type Group = {
+export type GroupV1 = {
   id: number
   title: string
   url: string
 }
 
-export type ConnpassEvent = {
+export type ConnpassEventV1 = {
   event_id: number
   title: string
   catch: string
@@ -27,7 +27,7 @@ export type ConnpassEvent = {
 
   event_type: string
 
-  series: Group
+  series: GroupV1
 
   address: string
   place: string
@@ -41,7 +41,7 @@ export type ConnpassEvent = {
   updated_at: ISO8601
 }
 
-export type GetEventsQuery = Partial<{
+export type GetEventsQueryV1 = Partial<{
   event_id: number
   keyword: string
   keyword_or: string
@@ -51,14 +51,14 @@ export type GetEventsQuery = Partial<{
   owner_nickname: string
   series_id: number
   start: number
-  order: EventOrder
+  order: EventOrderV1
   count: number
   format: 'json'
 }>
 
-export type GetEventsResponse = {
+export type GetEventsResponseV1 = {
   results_returned: number
   results_available: number
   results_start: number
-  events: ConnpassEvent[]
+  events: ConnpassEventV1[]
 }

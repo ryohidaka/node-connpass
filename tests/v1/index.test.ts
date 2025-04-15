@@ -1,5 +1,5 @@
-import Connpass from '../src'
 import { describe, expect, test, vi } from 'vitest'
+import { ConnpassV1 } from '../../src'
 
 const mockEvents = [
   {
@@ -53,10 +53,8 @@ vi.mock('axios', async () => {
 describe('src/index.ts', () => {
   test('getEvents', async () => {
     expect.assertions(1)
-    const connpass = new Connpass()
-    const response = await connpass.getEvents({
-      count: 1,
-    })
+    const connpass = new ConnpassV1()
+    const response = await connpass.getEventsV1({ count: 1 })
     expect(response.events.length).toBe(1)
   })
 })

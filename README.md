@@ -14,17 +14,17 @@ npm i connpass
 ## Usage
 
 ```ts
-import Connpass from 'connpass'
+import { ConnpassV1 } from 'connpass'
 
 async function run() {
-  const client = new Connpass()
-  const { events } = await client.getEvents()
+  const client = new ConnpassV1()
+  const { events } = await client.getEventsV1()
 }
 ```
 
 ## Type definition
 
-See [here](https://github.com/potato4d/node-connpass/blob/master/src/types.ts).
+See [here](https://github.com/ryohidaka/node-connpass/blob/main/src/v1/types.ts).
 
 ## LICENCE
 
