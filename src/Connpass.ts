@@ -1,30 +1,53 @@
+import axios, { AxiosInstance } from 'axios'
+
 /**
  * Connpass APIクライアントクラス
- * イベント情報の取得など、ConnpassのAPIを利用するための機能を提供します。
  */
 export class Connpass {
   private readonly apiKey: string
-  private readonly baseUrl: string
+  private readonly client: AxiosInstance
   private readonly API_VERSION: string = 'v2'
 
-  /**
-   * Connpassクライアントのインスタンスを作成します。
-   * @param apiKey - Connpass APIキー
-   */
   constructor(apiKey: string) {
     this.apiKey = apiKey
-    this.baseUrl = Connpass.getBaseUrl()
+
+    // Axiosインスタンスを作成
+    this.client = axios.create({
+      baseURL: `${Connpass.getBaseUrl()}/${this.API_VERSION}`,
+      headers: {
+        'X-API-Key': this.apiKey,
+      },
+    })
   }
 
   /**
-   * 実行環境（開発 or 本番）に応じてbaseUrlを返します。
-   * 開発環境ではViteのプロキシ(`/api`)を使用し、
-   * 本番環境では公式のConnpass API URLを使用します。(CORS対策のため)
-   *
-   * @returns baseUrl文字列
+   * 環境に応じてbaseURLを返す
    */
   private static getBaseUrl(): string {
     const isDev = import.meta.env.MODE === 'development'
     return isDev ? '/api' : 'https://connpass.com/api'
+  }
+
+  /**
+   * 共通のGETリクエスト処理
+   */
+  private async request<T>(
+    endpoint: string,
+    query?: Record<string, any>,
+  ): Promise<T> {
+    try {
+      const response = await this.client.get<T>(`/${endpoint}`, {
+        params: query,
+      })
+      return response.data
+    } catch (error: any) {
+      if (axios.isAxiosError(error)) {
+        throw new Error(
+          `APIリクエストに失敗しました: ${error.response?.status} ${error.response?.statusText}`,
+        )
+      } else {
+        throw new Error(`予期しないエラーが発生しました: ${error.message}`)
+      }
+    }
   }
 }
