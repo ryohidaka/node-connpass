@@ -6,7 +6,7 @@
   "author": "HANATANI Takuma <mail@potato4d.me>",
   "license": "MIT",
   "scripts": {
-    "build": "yarn tsc",
+    "build": "tsc",
     "format": "prettier './**/*.ts' --write"
   },
   "dependencies": {

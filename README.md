@@ -8,7 +8,7 @@ The connpass API client library for Node.js.
 ## Installation
 
 ```bash
-$ yarn add connpass
+npm i connpass
 ```
 
 ## Usage
