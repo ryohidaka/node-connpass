@@ -20,4 +20,13 @@ export default defineConfig({
       exclude: ['**/**/index.ts', 'src/example', 'vite.config.ts'],
     },
   },
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://connpass.com/api',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/api/, ''),
+      },
+    },
+  },
 })
