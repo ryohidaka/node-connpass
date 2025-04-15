@@ -12,5 +12,5 @@ export default defineConfig({
       fileName: 'index',
     },
   },
-  plugins: [dts(), tsconfigPaths()],
+  plugins: [dts({ exclude: 'src/example/' }), tsconfigPaths()],
 })
