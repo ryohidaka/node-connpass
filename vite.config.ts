@@ -17,7 +17,7 @@ export default defineConfig({
     globals: true,
     setupFiles: ['./setup.ts'],
     coverage: {
-      exclude: ['**/**/index.ts', 'src/example', 'vite.config.ts'],
+      exclude: ['**/**/index.ts', 'src/example', 'vite.config.ts', 'tests'],
     },
   },
   server: {
