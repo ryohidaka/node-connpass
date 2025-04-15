@@ -1,14 +1,35 @@
 {
   "name": "connpass",
   "version": "1.1.0",
-  "main": "lib/src/index.js",
-  "repository": "ssh://git@github.com/potato4d/node-connpass.git",
-  "author": "HANATANI Takuma <mail@potato4d.me>",
-  "license": "MIT",
+  "description": "The connpass API client library for Node.js.",
+  "type": "module",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
   "scripts": {
-    "build": "tsc",
+    "dev": "vite",
+    "build": "tsc && vite build --emptyOutDir false",
+    "preview": "vite preview",
     "format": "prettier './**/*.ts' --write"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potato4d/node-connpass.git"
+  },
+  "author": "HANATANI Takuma <mail@potato4d.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/potato4d/node-connpass/issues"
+  },
+  "homepage": "https://github.com/potato4d/node-connpass#readme",
   "dependencies": {
     "axios": "^1.8.4"
   },
@@ -21,6 +42,9 @@
     "standard-version": "^9.5.0",
     "ts-jest": "^29.3.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vite": "^6.2.6",
+    "vite-plugin-dts": "^4.5.3",
+    "vite-tsconfig-paths": "^5.1.4"
   }
 }

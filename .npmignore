@@ -1,0 +1,15 @@
+/node_modules
+/src
+tsconfig.json
+
+## Prettier
+.prettierignore
+.prettierrc.json
+
+## GitHub
+.github
+
+## Vite
+vite.config.ts
+public
+index.html
