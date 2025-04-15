@@ -1,5 +1,5 @@
 import { resolve } from 'path'
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vitest/config'
 import dts from 'vite-plugin-dts'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
@@ -13,4 +13,11 @@ export default defineConfig({
     },
   },
   plugins: [dts({ exclude: 'src/example/' }), tsconfigPaths()],
+  test: {
+    globals: true,
+    setupFiles: ['./setup.ts'],
+    coverage: {
+      exclude: ['**/**/index.ts', 'src/example', 'vite.config.ts'],
+    },
+  },
 })

@@ -2,6 +2,11 @@
 /src
 tsconfig.json
 
+## Tests
+setup.ts
+/tests
+/coverage
+
 ## Prettier
 .prettierignore
 .prettierrc.json

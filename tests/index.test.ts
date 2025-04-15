@@ -1,4 +1,5 @@
 import Connpass from '../src'
+import { describe, expect, test } from 'vitest'
 
 describe('src/index.ts', () => {
   test('getEvents', async () => {
