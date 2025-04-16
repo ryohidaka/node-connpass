@@ -1,7 +1,11 @@
 import { describe, it, expect, vi, beforeEach, Mock, afterEach } from 'vitest'
 import axios from 'axios'
 import { Connpass } from '../src'
-import { dummyEventsQuery, dummyEventsResponse } from './__dummy__'
+import {
+  dummyEventsQuery,
+  dummyEventsResponse,
+  dummyPresentationsResponse,
+} from './__dummy__'
 
 // axiosのモックを有効にする
 vi.mock('axios')
@@ -87,6 +91,53 @@ describe('Connpass', () => {
 
         await expect(connpass.getEvents({ keyword: ['Vue'] })).rejects.toThrow(
           '予期しないエラーが発生しました: Unexpected failure',
+        )
+      })
+    })
+  })
+
+  describe('イベント資料一覧取得API', () => {
+    describe('正常系', () => {
+      it('イベント資料一覧が取得できること', async () => {
+        mockGet.mockResolvedValue({ data: dummyPresentationsResponse })
+
+        const connpass = new Connpass('test-api-key')
+        const result = await connpass.getEventPresentations('12345')
+
+        expect(mockGet).toHaveBeenCalledWith(
+          '/events/12345/presentations',
+          expect.anything(),
+        )
+        expect(result).toEqual(dummyPresentationsResponse)
+      })
+    })
+
+    describe('異常系', () => {
+      it('APIリクエストに失敗した場合、エラーをスローすること', async () => {
+        mockGet.mockRejectedValue({
+          isAxiosError: true,
+          response: {
+            status: 404,
+            statusText: 'Not Found',
+          },
+        })
+
+        vi.spyOn(axios, 'isAxiosError').mockReturnValue(true)
+
+        const connpass = new Connpass('test-api-key')
+
+        await expect(
+          connpass.getEventPresentations('invalid-id'),
+        ).rejects.toThrow('APIリクエストに失敗しました: 404 Not Found')
+      })
+
+      it('予期しないエラーが発生した場合、エラーをスローすること', async () => {
+        mockGet.mockRejectedValue(new Error('Something broke'))
+
+        const connpass = new Connpass('test-api-key')
+
+        await expect(connpass.getEventPresentations('any-id')).rejects.toThrow(
+          '予期しないエラーが発生しました: Something broke',
         )
       })
     })
