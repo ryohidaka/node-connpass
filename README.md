@@ -1,31 +1,37 @@
-> **This library is no longer maintained**  
-> connpass has ended free API access for individuals. Therefore, this library no longer works.
-
 # Connpass API Adapter for Node.js
 
-The connpass API client library for Node.js.
+Node.js向けconnpass APIクライアントライブラリ
 
-## Installation
+> [!NOTE]
+> このプロジェクトは [@potato4d](https://github.com/potato4d) による [node-connpass](https://github.com/potato4d/node-connpass) のフォークです。
+
+## インストール
 
 ```bash
 npm i connpass
 ```
 
-## Usage
+## 使用例
+
+> [!IMPORTANT]
+> すべてのAPIエンドポイントでは、APIキーによる認証が必須です。
+> 
+> APIキーの発行には[ヘルプページ](https://help.connpass.com/api/)での利用申請が必要です。
 
 ```ts
-import { ConnpassV1 } from 'connpass'
+import { Connpass } from 'connpass'
 
 async function run() {
-  const client = new ConnpassV1()
-  const { events } = await client.getEventsV1()
+  const apiKey = '<YOUR_API_KEY>'
+  const client = new Connpass(apiKey)
+  const { events } = await client.getEvents()
 }
 ```
 
-## Type definition
+## 型定義
 
 See [here](https://github.com/ryohidaka/node-connpass/blob/main/src/v1/types.ts).
 
-## LICENCE
+## License
 
-MIT
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
