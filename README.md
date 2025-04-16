@@ -8,18 +8,18 @@ Node.js向けconnpass APIクライアントライブラリ
 ## インストール
 
 ```bash
-npm i connpass
+npm i connpass-v2
 ```
 
 ## 使用例
 
 > [!IMPORTANT]
 > すべてのAPIエンドポイントでは、APIキーによる認証が必須です。
-> 
+>
 > APIキーの発行には[ヘルプページ](https://help.connpass.com/api/)での利用申請が必要です。
 
 ```ts
-import { Connpass } from 'connpass'
+import { Connpass } from 'connpass-v2'
 
 async function run() {
   const apiKey = '<YOUR_API_KEY>'
@@ -30,7 +30,11 @@ async function run() {
 
 ## 型定義
 
-See [here](https://github.com/ryohidaka/node-connpass/blob/main/src/v1/types.ts).
+See [here](https://github.com/ryohidaka/node-connpass/blob/main/src/types.ts).
+
+## リンク
+
+- [APIリファレンス](https://connpass.com/about/api/v2/)
 
 ## License
 
