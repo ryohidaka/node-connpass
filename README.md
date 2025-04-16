@@ -3,7 +3,7 @@
 Node.js向けconnpass APIクライアントライブラリ
 
 > [!NOTE]
-> このプロジェクトは [@potato4d](https://github.com/potato4d) による [node-connpass](https://github.com/potato4d/node-connpass) のフォークです。
+> このプロジェクトは [node-connpass](https://github.com/potato4d/node-connpass) (by [@potato4d](https://github.com/potato4d)) のフォークです。
 
 ## インストール
 
