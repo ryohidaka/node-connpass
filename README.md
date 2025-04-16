@@ -1,5 +1,9 @@
 # Connpass API Adapter for Node.js
 
+[![NPM Version](https://img.shields.io/npm/v/connpass-v2?logo=npm)](https://www.npmjs.com/package/connpass-v2)
+![build](https://github.com/ryohidaka/node-connpass/workflows/Build/badge.svg)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 Node.js向けconnpass APIクライアントライブラリ
 
 > [!NOTE]
