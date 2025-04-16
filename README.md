@@ -26,9 +26,15 @@ npm i connpass-v2
 import { Connpass } from 'connpass-v2'
 
 async function run() {
+  // 初期化
   const apiKey = '<YOUR_API_KEY>'
   const client = new Connpass(apiKey)
+
+  // イベント一覧取得
   const { events } = await client.getEvents()
+
+  // イベント資料一覧取得
+  const { presentations } = await client.getEventPresentations('<EVENT_ID>')
 }
 ```
 
