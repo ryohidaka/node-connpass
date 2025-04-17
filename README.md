@@ -40,6 +40,11 @@ async function run() {
   const { groups } = await client.getGropus({
     subdomain: ['bpstudy', 'beproud'],
   })
+
+  // ユーザー一覧取得
+  const { users } = await client.getUsers({
+    nickname: ['haru860', 'ian'],
+  })
 }
 ```
 
