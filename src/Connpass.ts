@@ -4,6 +4,8 @@ import {
   GetEventPresentationsResponse,
   GetEventsQuery,
   GetEventsResponse,
+  GetGroupsQuery,
+  GetGroupsResponse,
 } from '.'
 
 /**
@@ -90,5 +92,19 @@ export class Connpass {
       `events/${id}/presentations`,
       query,
     )
+  }
+
+  /**
+   * グループ一覧
+   *
+   * 検索クエリの条件に応じたグループ一覧を取得する。
+   *
+   * [APIリファレンス](https://connpass.com/about/api/v2/#tag/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97/operation/connpass_group_group_api_v2_views_group_search)
+   *
+   * @param query - グループ検索用のクエリパラメータ（省略可能）
+   * @returns グループ情報レスポンスのPromise
+   */
+  async getGroups(query?: GetGroupsQuery): Promise<GetGroupsResponse> {
+    return this.request<GetGroupsResponse>(`groups`, query)
   }
 }
