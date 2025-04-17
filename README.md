@@ -45,7 +45,7 @@ async function run() {
 
 ## 型定義
 
-See [here](https://github.com/ryohidaka/node-connpass/blob/main/src/types.ts).
+See [here](https://github.com/ryohidaka/node-connpass/blob/main/src/types).
 
 ## リンク
 
