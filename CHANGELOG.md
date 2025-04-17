@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/ryohidaka/node-connpass/compare/v2.1.0...v2.2.0) (2025-04-17)
+
+
+### Features
+
+* Add getGroups(). ([f50b049](https://github.com/ryohidaka/node-connpass/commit/f50b049d72b4a8653c1525774476b0d8caf3a93a))
+* **example:** Add example for getGroups(). ([507280e](https://github.com/ryohidaka/node-connpass/commit/507280e1e6d873d0369d63dd66c13b68c7fe1967))
+* **types:** Add types for groups. ([f5c007a](https://github.com/ryohidaka/node-connpass/commit/f5c007ab8954f7845d14a52e43e1b2a4770cc60a))
+
 ## [2.1.0](https://github.com/ryohidaka/node-connpass/compare/v2.0.0...v2.1.0) (2025-04-16)
 
 
