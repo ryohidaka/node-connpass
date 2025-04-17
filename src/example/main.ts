@@ -1,6 +1,6 @@
 import { Connpass, ConnpassEvent, EventOrder } from '..'
 import { Prefecture } from '../types/prefecture'
-import { Presentation } from '../types'
+import { ConnpassGroup, Presentation } from '../types'
 
 // DOM 初期セット
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -13,13 +13,17 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <input type="text" id="eventIdInput" placeholder="イベントIDを入力" />
     <button id="fetchPresentations">資料取得</button>
     <div id="presentationsResult"></div>
+    <hr />
+    <h3>グループ一覧</h3>
+    <button id="fetchGroups">グループ取得</button>
+    <div id="groupsResult"></div>
   </div>
 `
 
 const apiKey = import.meta.env.VITE_CONNPASS_API_KEY
 const connpass = new Connpass(apiKey)
 
-// ✅ イベント一覧HTML生成関数
+// イベント一覧HTML生成関数
 function renderEvents(events: ConnpassEvent[]): string {
   if (events.length === 0) {
     return '<p>イベントが見つかりませんでした。</p>'
@@ -56,7 +60,7 @@ function renderEvents(events: ConnpassEvent[]): string {
   `
 }
 
-// ✅ 資料一覧HTML生成関数
+// 資料一覧HTML生成関数
 function renderPresentations(presentations: Presentation[]): string {
   if (presentations.length === 0) {
     return '<p>資料が見つかりませんでした。</p>'
@@ -93,7 +97,44 @@ function renderPresentations(presentations: Presentation[]): string {
   `
 }
 
-// ✅ イベント取得処理
+// グループ覧HTML生成関数
+function renderGroups(groups: ConnpassGroup[]): string {
+  if (groups.length === 0) {
+    return '<p>グループが見つかりませんでした。</p>'
+  }
+
+  return `
+    <h3>グループ一覧</h3>
+    <table border="1" cellpadding="5">
+      <thead>
+        <tr>
+          <th>グループID</th>
+          <th>グループ名</th>
+          <th>サブドメイン</th>
+          <th>主催者</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${groups
+          .map(
+            (group) => `
+          <tr>
+            <td>${group.id}</td>
+            <td>${group.title}</td>
+            <td>${group.subdomain}</td>
+            <td>${group.owner_text}</td>
+            <td><a href="${group.url}" target="_blank">リンク</a></td>
+          </tr>
+        `,
+          )
+          .join('')}
+      </tbody>
+    </table>
+  `
+}
+
+// イベント取得処理
 document.getElementById('fetchEvents')?.addEventListener('click', async () => {
   const resultDiv = document.getElementById('eventsResult')!
   resultDiv.innerHTML = `<p>イベント取得中...</p>`
@@ -112,7 +153,7 @@ document.getElementById('fetchEvents')?.addEventListener('click', async () => {
   }
 })
 
-// ✅ 資料取得処理（入力されたイベントIDで）
+// 資料取得処理（入力されたイベントIDで）
 document
   .getElementById('fetchPresentations')
   ?.addEventListener('click', async () => {
@@ -135,3 +176,19 @@ document
       resultDiv.innerHTML = `<p style="color:red;">エラー: ${e.message}</p>`
     }
   })
+
+// グループ取得処理
+document.getElementById('fetchGroups')?.addEventListener('click', async () => {
+  const resultDiv = document.getElementById('groupsResult')!
+  resultDiv.innerHTML = `<p>グループ取得中...</p>`
+
+  try {
+    const response = await connpass.getGroups({
+      subdomain: ['bpstudy', 'beproud'],
+    })
+
+    resultDiv.innerHTML = renderGroups(response.groups)
+  } catch (e: any) {
+    resultDiv.innerHTML = `<p style="color:red;">エラー: ${e.message}</p>`
+  }
+})
