@@ -1,4 +1,5 @@
 import axios, { AxiosInstance } from 'axios'
+import qs from 'qs'
 import {
   BaseQuery,
   GetEventPresentationsResponse,
@@ -46,6 +47,13 @@ export class Connpass {
     try {
       const response = await this.client.get<T>(`/${endpoint}`, {
         params: query,
+        paramsSerializer: {
+          serialize: (params) => {
+            return qs.stringify(params, {
+              arrayFormat: 'repeat',
+            })
+          },
+        },
       })
       return response.data
     } catch (error: any) {

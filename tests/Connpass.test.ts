@@ -57,9 +57,13 @@ describe('Connpass', () => {
         const connpass = new Connpass('fake-api-key')
         const result = await connpass.getEvents(dummyEventsQuery)
 
-        expect(mockGet).toHaveBeenCalledWith('/events', {
-          params: dummyEventsQuery,
-        })
+        expect(mockGet).toHaveBeenCalledWith(
+          '/events',
+          expect.objectContaining({
+            params: dummyEventsQuery,
+            paramsSerializer: expect.any(Object),
+          }),
+        )
         expect(result).toEqual(dummyEventsResponse)
       })
     })
@@ -153,9 +157,13 @@ describe('Connpass', () => {
         const connpass = new Connpass('test-api-key')
         const result = await connpass.getGroups(dummyGroupsQuery)
 
-        expect(mockGet).toHaveBeenCalledWith('/groups', {
-          params: dummyGroupsQuery,
-        })
+        expect(mockGet).toHaveBeenCalledWith(
+          '/groups',
+          expect.objectContaining({
+            params: dummyGroupsQuery,
+            paramsSerializer: expect.any(Object),
+          }),
+        )
         expect(result).toEqual(dummyGroupsResponse)
       })
     })
