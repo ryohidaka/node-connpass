@@ -35,6 +35,11 @@ async function run() {
 
   // イベント資料一覧取得
   const { presentations } = await client.getEventPresentations('<EVENT_ID>')
+
+  // グループ一覧取得
+  const { groups } = await client.getGropus({
+    subdomain: ['bpstudy', 'beproud'],
+  })
 }
 ```
 
