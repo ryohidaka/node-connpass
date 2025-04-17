@@ -1,6 +1,6 @@
 import { Connpass, ConnpassEvent, EventOrder } from '..'
 import { Prefecture } from '../types/prefecture'
-import { ConnpassGroup, Presentation } from '../types'
+import { ConnpassGroup, ConnpassUser, Presentation } from '../types'
 
 // DOM 初期セット
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
@@ -17,6 +17,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h3>グループ一覧</h3>
     <button id="fetchGroups">グループ取得</button>
     <div id="groupsResult"></div>
+    <hr />
+    <h3>ユーザー一覧</h3>
+    <button id="fetchUsers">ユーザー取得</button>
+    <div id="usersResult"></div>
   </div>
 `
 
@@ -97,7 +101,7 @@ function renderPresentations(presentations: Presentation[]): string {
   `
 }
 
-// グループ覧HTML生成関数
+// グループ一覧HTML生成関数
 function renderGroups(groups: ConnpassGroup[]): string {
   if (groups.length === 0) {
     return '<p>グループが見つかりませんでした。</p>'
@@ -125,6 +129,43 @@ function renderGroups(groups: ConnpassGroup[]): string {
             <td>${group.subdomain}</td>
             <td>${group.owner_text}</td>
             <td><a href="${group.url}" target="_blank">リンク</a></td>
+          </tr>
+        `,
+          )
+          .join('')}
+      </tbody>
+    </table>
+  `
+}
+
+// ユーザー一覧HTML生成関数
+function renderUsers(users: ConnpassUser[]): string {
+  if (users.length === 0) {
+    return '<p>ユーザーが見つかりませんでした。</p>'
+  }
+
+  return `
+    <h3>ユーザー一覧</h3>
+    <table border="1" cellpadding="5">
+      <thead>
+        <tr>
+          <th>ユーザーID</th>
+          <th>ニックネーム</th>
+          <th>表示名</th>
+          <th>自己紹介文</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${users
+          .map(
+            (user) => `
+          <tr>
+            <td>${user.id}</td>
+            <td>${user.nickname}</td>
+            <td>${user.display_name}</td>
+            <td>${user.description}</td>
+            <td><a href="${user.url}" target="_blank">リンク</a></td>
           </tr>
         `,
           )
@@ -188,6 +229,22 @@ document.getElementById('fetchGroups')?.addEventListener('click', async () => {
     })
 
     resultDiv.innerHTML = renderGroups(response.groups)
+  } catch (e: any) {
+    resultDiv.innerHTML = `<p style="color:red;">エラー: ${e.message}</p>`
+  }
+})
+
+// ユーザー取得処理
+document.getElementById('fetchUsers')?.addEventListener('click', async () => {
+  const resultDiv = document.getElementById('usersResult')!
+  resultDiv.innerHTML = `<p>ユーザー取得中...</p>`
+
+  try {
+    const response = await connpass.getUsers({
+      nickname: ['haru860', 'ian'],
+    })
+
+    resultDiv.innerHTML = renderUsers(response.users)
   } catch (e: any) {
     resultDiv.innerHTML = `<p style="color:red;">エラー: ${e.message}</p>`
   }
