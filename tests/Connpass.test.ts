@@ -7,6 +7,8 @@ import {
   dummyGroupsQuery,
   dummyGroupsResponse,
   dummyPresentationsResponse,
+  dummyUsersQuery,
+  dummyUsersResponse,
 } from './__dummy__'
 
 // axiosのモックを有効にする
@@ -195,6 +197,56 @@ describe('Connpass', () => {
         await expect(
           connpass.getGroups({ subdomain: ['test'] }),
         ).rejects.toThrow('予期しないエラーが発生しました: Unexpected error')
+      })
+    })
+  })
+
+  describe('ユーザー一覧取得API', () => {
+    describe('正常系', () => {
+      it('ユーザー一覧が取得できること', async () => {
+        mockGet.mockResolvedValue({ data: dummyUsersResponse })
+
+        const connpass = new Connpass('test-api-key')
+        const result = await connpass.getUsers(dummyUsersQuery)
+
+        expect(mockGet).toHaveBeenCalledWith(
+          '/users',
+          expect.objectContaining({
+            params: dummyUsersQuery,
+            paramsSerializer: expect.any(Object),
+          }),
+        )
+        expect(result).toEqual(dummyUsersResponse)
+      })
+    })
+
+    describe('異常系', () => {
+      it('APIリクエストに失敗した場合、エラーをスローすること', async () => {
+        mockGet.mockRejectedValue({
+          isAxiosError: true,
+          response: {
+            status: 400,
+            statusText: 'Bad Request',
+          },
+        })
+
+        vi.spyOn(axios, 'isAxiosError').mockReturnValue(true)
+
+        const connpass = new Connpass('test-api-key')
+
+        await expect(
+          connpass.getUsers({ nickname: ['invalid'] }),
+        ).rejects.toThrow('APIリクエストに失敗しました: 400 Bad Request')
+      })
+
+      it('予期しないエラーが発生した場合、エラーをスローすること', async () => {
+        mockGet.mockRejectedValue(new Error('Unexpected error'))
+
+        const connpass = new Connpass('test-api-key')
+
+        await expect(connpass.getUsers({ nickname: ['test'] })).rejects.toThrow(
+          '予期しないエラーが発生しました: Unexpected error',
+        )
       })
     })
   })
