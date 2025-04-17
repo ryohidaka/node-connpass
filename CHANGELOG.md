@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.1](https://github.com/ryohidaka/node-connpass/compare/v2.2.0...v2.2.1) (2025-04-17)
+
+
+### Bug Fixes
+
+* Use qs to serialize array params as repeated keys in query string. ([cda38c6](https://github.com/ryohidaka/node-connpass/commit/cda38c67c231a08975669a94b6e6cf16216edd05))
+
 ## [2.2.0](https://github.com/ryohidaka/node-connpass/compare/v2.1.0...v2.2.0) (2025-04-17)
 
 
