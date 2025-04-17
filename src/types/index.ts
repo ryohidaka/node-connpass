@@ -1,4 +1,5 @@
 export * from './base'
 export * from './event'
+export * from './group'
 export * from './prefecture'
 export * from './presentation'
