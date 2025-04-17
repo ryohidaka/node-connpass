@@ -7,6 +7,8 @@ import {
   GetEventsResponse,
   GetGroupsQuery,
   GetGroupsResponse,
+  GetUsersQuery,
+  GetUsersResponse,
 } from '.'
 
 /**
@@ -114,5 +116,19 @@ export class Connpass {
    */
   async getGroups(query?: GetGroupsQuery): Promise<GetGroupsResponse> {
     return this.request<GetGroupsResponse>(`groups`, query)
+  }
+
+  /**
+   * ユーザー一覧
+   *
+   * 検索クエリの条件に応じたユーザー一覧を取得する。
+   *
+   * [APIリファレンス](https://connpass.com/about/api/v2/#tag/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC/operation/connpass_account_account_api_v2_views_user_search)
+   *
+   * @param query - ユーザー検索用のクエリパラメータ（省略可能）
+   * @returns ユーザー情報レスポンスのPromise
+   */
+  async getUsers(query?: GetUsersQuery): Promise<GetUsersResponse> {
+    return this.request<GetUsersResponse>(`users`, query)
   }
 }
