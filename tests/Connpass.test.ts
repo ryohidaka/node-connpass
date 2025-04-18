@@ -250,4 +250,51 @@ describe('Connpass', () => {
       })
     })
   })
+
+  describe('ユーザー所属グループ一覧取得API', () => {
+    describe('正常系', () => {
+      it('ユーザー所属一覧が取得できること', async () => {
+        mockGet.mockResolvedValue({ data: dummyGroupsResponse })
+
+        const connpass = new Connpass('test-api-key')
+        const result = await connpass.getUserGroups('test-nickname')
+
+        expect(mockGet).toHaveBeenCalledWith(
+          `/users/test-nickname/groups`,
+          expect.anything(),
+        )
+        expect(result).toEqual(dummyGroupsResponse)
+      })
+    })
+
+    describe('異常系', () => {
+      it('APIリクエストに失敗した場合、エラーをスローすること', async () => {
+        mockGet.mockRejectedValue({
+          isAxiosError: true,
+          response: {
+            status: 400,
+            statusText: 'Bad Request',
+          },
+        })
+
+        vi.spyOn(axios, 'isAxiosError').mockReturnValue(true)
+
+        const connpass = new Connpass('test-api-key')
+
+        await expect(connpass.getUserGroups('invalid')).rejects.toThrow(
+          'APIリクエストに失敗しました: 400 Bad Request',
+        )
+      })
+
+      it('予期しないエラーが発生した場合、エラーをスローすること', async () => {
+        mockGet.mockRejectedValue(new Error('Unexpected error'))
+
+        const connpass = new Connpass('test-api-key')
+
+        await expect(connpass.getUserGroups('test')).rejects.toThrow(
+          '予期しないエラーが発生しました: Unexpected error',
+        )
+      })
+    })
+  })
 })
