@@ -1,4 +1,4 @@
-import { BaseQuery, BaseResponse, ISO8601 } from '.'
+import { BaseQuery, BaseResponse, ConnpassGroup, ISO8601 } from '.'
 
 /**
  * ユーザー一覧のパラメータ
@@ -44,4 +44,17 @@ export type ConnpassUser = {
   presenter_event_count: number
   /* ブックマークイベント数 */
   bookmark_event_count: number
+}
+
+/**
+ * ユーザー所属グループ一覧のパラメータ
+ */
+export type GetUserGroupsQuery = BaseQuery
+
+/**
+ * ユーザー所属グループ一覧のレスポンス
+ */
+export type GetUserGroupsResponse = BaseResponse & {
+  /* グループ一覧 */
+  groups: ConnpassGroup[]
 }
