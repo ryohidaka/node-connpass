@@ -21,6 +21,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h3>ユーザー一覧</h3>
     <button id="fetchUsers">ユーザー取得</button>
     <div id="usersResult"></div>
+    <hr />
+    <h3>ユーザー所属グループ一覧</h3>
+    <button id="fetchUserGroups">ユーザー所属取得</button>
+    <div id="userGroupsResult"></div>
   </div>
 `
 
@@ -175,6 +179,43 @@ function renderUsers(users: ConnpassUser[]): string {
   `
 }
 
+// ユーザー所属グループ一覧HTML生成関数
+function renderUserGroups(groups: ConnpassGroup[]): string {
+  if (groups.length === 0) {
+    return '<p>グループが見つかりませんでした。</p>'
+  }
+
+  return `
+    <h3>ユーザー所属グループ一覧</h3>
+    <table border="1" cellpadding="5">
+      <thead>
+        <tr>
+          <th>グループID</th>
+          <th>グループ名</th>
+          <th>サブドメイン</th>
+          <th>主催者</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${groups
+          .map(
+            (group) => `
+          <tr>
+            <td>${group.id}</td>
+            <td>${group.title}</td>
+            <td>${group.subdomain}</td>
+            <td>${group.owner_text}</td>
+            <td><a href="${group.url}" target="_blank">リンク</a></td>
+          </tr>
+        `,
+          )
+          .join('')}
+      </tbody>
+    </table>
+  `
+}
+
 // イベント取得処理
 document.getElementById('fetchEvents')?.addEventListener('click', async () => {
   const resultDiv = document.getElementById('eventsResult')!
@@ -249,3 +290,19 @@ document.getElementById('fetchUsers')?.addEventListener('click', async () => {
     resultDiv.innerHTML = `<p style="color:red;">エラー: ${e.message}</p>`
   }
 })
+
+// ユーザー所属グループ取得処理
+document
+  .getElementById('fetchUserGroups')
+  ?.addEventListener('click', async () => {
+    const resultDiv = document.getElementById('userGroupsResult')!
+    resultDiv.innerHTML = `<p>グループ取得中...</p>`
+
+    try {
+      const response = await connpass.getUserGroups('haru860')
+
+      resultDiv.innerHTML = renderUserGroups(response.groups)
+    } catch (e: any) {
+      resultDiv.innerHTML = `<p style="color:red;">エラー: ${e.message}</p>`
+    }
+  })
