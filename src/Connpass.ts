@@ -7,6 +7,8 @@ import {
   GetEventsResponse,
   GetGroupsQuery,
   GetGroupsResponse,
+  GetUserGroupsQuery,
+  GetUserGroupsResponse,
   GetUsersQuery,
   GetUsersResponse,
 } from '.'
@@ -130,5 +132,26 @@ export class Connpass {
    */
   async getUsers(query?: GetUsersQuery): Promise<GetUsersResponse> {
     return this.request<GetUsersResponse>(`users`, query)
+  }
+
+  /**
+   * ユーザー所属グループ一覧
+   *
+   * ユーザーが所属しているグループ一覧を取得する。
+   *
+   * [APIリファレンス](https://connpass.com/about/api/v2/#tag/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC/operation/connpass_account_account_api_v2_views_user_group)
+   *
+   * @param nickname - ニックネーム
+   * @param query - ユーザー所属グループ検索用のクエリパラメータ（省略可能）
+   * @returns ユーザー所属グループ情報レスポンスのPromise
+   */
+  async getUserGroups(
+    nickname: string,
+    query?: GetUserGroupsQuery,
+  ): Promise<GetUserGroupsResponse> {
+    return this.request<GetUserGroupsResponse>(
+      `users/${nickname}/groups`,
+      query,
+    )
   }
 }
