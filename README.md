@@ -45,6 +45,9 @@ async function run() {
   const { users } = await client.getUsers({
     nickname: ['haru860', 'ian'],
   })
+
+  // ユーザー所属グループ一覧取得
+  const { groups } = await client.getUserGroups('haru860')
 }
 ```
 
