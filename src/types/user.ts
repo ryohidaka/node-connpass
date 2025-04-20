@@ -77,3 +77,16 @@ export type GetUserAttendedEventsResponse = BaseResponse & {
   /* イベント一覧 */
   events: ConnpassEvent[]
 }
+
+/**
+ * ユーザーが発表したイベント一覧のパラメータ
+ */
+export type GetUserPresenterEventsQuery = BaseQuery
+
+/**
+ * ユーザーが発表したイベント一覧のレスポンス
+ */
+export type GetUserPresenterEventsResponse = BaseResponse & {
+  /* イベント一覧 */
+  events: ConnpassEvent[]
+}
