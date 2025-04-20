@@ -297,4 +297,51 @@ describe('Connpass', () => {
       })
     })
   })
+
+  describe('ユーザー参加イベント一覧取得API', () => {
+    describe('正常系', () => {
+      it('ユーザー参加イベント一覧が取得できること', async () => {
+        mockGet.mockResolvedValue({ data: dummyEventsResponse })
+
+        const connpass = new Connpass('test-api-key')
+        const result = await connpass.getUserAttendedEvents('test-nickname')
+
+        expect(mockGet).toHaveBeenCalledWith(
+          `/users/test-nickname/attended_events`,
+          expect.anything(),
+        )
+        expect(result).toEqual(dummyEventsResponse)
+      })
+    })
+
+    describe('異常系', () => {
+      it('APIリクエストに失敗した場合、エラーをスローすること', async () => {
+        mockGet.mockRejectedValue({
+          isAxiosError: true,
+          response: {
+            status: 400,
+            statusText: 'Bad Request',
+          },
+        })
+
+        vi.spyOn(axios, 'isAxiosError').mockReturnValue(true)
+
+        const connpass = new Connpass('test-api-key')
+
+        await expect(connpass.getUserAttendedEvents('invalid')).rejects.toThrow(
+          'APIリクエストに失敗しました: 400 Bad Request',
+        )
+      })
+
+      it('予期しないエラーが発生した場合、エラーをスローすること', async () => {
+        mockGet.mockRejectedValue(new Error('Unexpected error'))
+
+        const connpass = new Connpass('test-api-key')
+
+        await expect(connpass.getUserAttendedEvents('test')).rejects.toThrow(
+          '予期しないエラーが発生しました: Unexpected error',
+        )
+      })
+    })
+  })
 })
