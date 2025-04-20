@@ -7,6 +7,8 @@ import {
   GetEventsResponse,
   GetGroupsQuery,
   GetGroupsResponse,
+  GetUserAttendedEventsQuery,
+  GetUserAttendedEventsResponse,
   GetUserGroupsQuery,
   GetUserGroupsResponse,
   GetUsersQuery,
@@ -151,6 +153,27 @@ export class Connpass {
   ): Promise<GetUserGroupsResponse> {
     return this.request<GetUserGroupsResponse>(
       `users/${nickname}/groups`,
+      query,
+    )
+  }
+
+  /**
+   * ユーザー参加イベント一覧
+   *
+   * ユーザーが参加したイベント一覧を取得する。
+   *
+   * [APIリファレンス](https://connpass.com/about/api/v2/#tag/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC/operation/connpass_account_account_api_v2_views_user_attended_event)
+   *
+   * @param nickname - ニックネーム
+   * @param query - ユーザー参加イベント検索用のクエリパラメータ（省略可能）
+   * @returns ユーザー参加イベント情報レスポンスのPromise
+   */
+  async getUserAttendedEvents(
+    nickname: string,
+    query?: GetUserAttendedEventsQuery,
+  ): Promise<GetUserAttendedEventsResponse> {
+    return this.request<GetUserAttendedEventsResponse>(
+      `users/${nickname}/attended_events`,
       query,
     )
   }
