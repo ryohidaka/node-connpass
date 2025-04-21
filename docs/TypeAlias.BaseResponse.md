@@ -4,7 +4,7 @@
 
 > **BaseResponse** = `object`
 
-Defined in: [types/base.ts:16](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/base.ts#L16)
+Defined in: [types/base.ts:16](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/base.ts#L16)
 
 共通レスポンス
 
@@ -14,7 +14,7 @@ Defined in: [types/base.ts:16](https://github.com/ryohidaka/node-connpass/blob/4
 
 > **results\_available**: `number`
 
-Defined in: [types/base.ts:20](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/base.ts#L20)
+Defined in: [types/base.ts:20](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/base.ts#L20)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types/base.ts:20](https://github.com/ryohidaka/node-connpass/blob/4
 
 > **results\_returned**: `number`
 
-Defined in: [types/base.ts:18](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/base.ts#L18)
+Defined in: [types/base.ts:18](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/base.ts#L18)
 
 ***
 
@@ -30,4 +30,4 @@ Defined in: [types/base.ts:18](https://github.com/ryohidaka/node-connpass/blob/4
 
 > **results\_start**: `number`
 
-Defined in: [types/base.ts:22](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/base.ts#L22)
+Defined in: [types/base.ts:22](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/base.ts#L22)

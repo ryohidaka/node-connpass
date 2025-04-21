@@ -4,7 +4,7 @@
 
 > **ConnpassGroup** = `object`
 
-Defined in: [types/group.ts:24](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/group.ts#L24)
+Defined in: [types/group.ts:24](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/group.ts#L24)
 
 グループ
 
@@ -14,7 +14,7 @@ Defined in: [types/group.ts:24](https://github.com/ryohidaka/node-connpass/blob/
 
 > **description**: `string`
 
-Defined in: [types/group.ts:36](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/group.ts#L36)
+Defined in: [types/group.ts:36](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/group.ts#L36)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types/group.ts:36](https://github.com/ryohidaka/node-connpass/blob/
 
 > **facebook\_url**: `string`
 
-Defined in: [types/group.ts:48](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/group.ts#L48)
+Defined in: [types/group.ts:48](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/group.ts#L48)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types/group.ts:48](https://github.com/ryohidaka/node-connpass/blob/
 
 > **id**: `number`
 
-Defined in: [types/group.ts:26](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/group.ts#L26)
+Defined in: [types/group.ts:26](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/group.ts#L26)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types/group.ts:26](https://github.com/ryohidaka/node-connpass/blob/
 
 > **image\_url**: `string`
 
-Defined in: [types/group.ts:40](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/group.ts#L40)
+Defined in: [types/group.ts:40](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/group.ts#L40)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [types/group.ts:40](https://github.com/ryohidaka/node-connpass/blob/
 
 > **member\_users\_count**: `number`
 
-Defined in: [types/group.ts:50](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/group.ts#L50)
+Defined in: [types/group.ts:50](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/group.ts#L50)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [types/group.ts:50](https://github.com/ryohidaka/node-connpass/blob/
 
 > **owner\_text**: `string`
 
-Defined in: [types/group.ts:38](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/group.ts#L38)
+Defined in: [types/group.ts:38](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/group.ts#L38)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [types/group.ts:38](https://github.com/ryohidaka/node-connpass/blob/
 
 > **sub\_title**: `string`
 
-Defined in: [types/group.ts:32](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/group.ts#L32)
+Defined in: [types/group.ts:32](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/group.ts#L32)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [types/group.ts:32](https://github.com/ryohidaka/node-connpass/blob/
 
 > **subdomain**: `string`
 
-Defined in: [types/group.ts:28](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/group.ts#L28)
+Defined in: [types/group.ts:28](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/group.ts#L28)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [types/group.ts:28](https://github.com/ryohidaka/node-connpass/blob/
 
 > **title**: `string`
 
-Defined in: [types/group.ts:30](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/group.ts#L30)
+Defined in: [types/group.ts:30](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/group.ts#L30)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [types/group.ts:30](https://github.com/ryohidaka/node-connpass/blob/
 
 > **twitter\_username**: `string`
 
-Defined in: [types/group.ts:46](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/group.ts#L46)
+Defined in: [types/group.ts:46](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/group.ts#L46)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [types/group.ts:46](https://github.com/ryohidaka/node-connpass/blob/
 
 > **url**: `string`
 
-Defined in: [types/group.ts:34](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/group.ts#L34)
+Defined in: [types/group.ts:34](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/group.ts#L34)
 
 ***
 
@@ -102,7 +102,7 @@ Defined in: [types/group.ts:34](https://github.com/ryohidaka/node-connpass/blob/
 
 > **website\_name**: `string`
 
-Defined in: [types/group.ts:44](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/group.ts#L44)
+Defined in: [types/group.ts:44](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/group.ts#L44)
 
 ***
 
@@ -110,4 +110,4 @@ Defined in: [types/group.ts:44](https://github.com/ryohidaka/node-connpass/blob/
 
 > **website\_url**: `string`
 
-Defined in: [types/group.ts:42](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/group.ts#L42)
+Defined in: [types/group.ts:42](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/group.ts#L42)

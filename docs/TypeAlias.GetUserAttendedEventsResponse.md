@@ -4,7 +4,7 @@
 
 > **GetUserAttendedEventsResponse** = [`BaseResponse`](../wiki/TypeAlias.BaseResponse) & `object`
 
-Defined in: [types/user.ts:76](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/user.ts#L76)
+Defined in: [types/user.ts:76](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/user.ts#L76)
 
 ユーザーが参加したイベント一覧のレスポンス
 

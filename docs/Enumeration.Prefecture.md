@@ -2,7 +2,7 @@
 
 # Enumeration: Prefecture
 
-Defined in: [types/prefecture.ts:4](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L4)
+Defined in: [types/prefecture.ts:4](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L4)
 
 都道府県
 
@@ -12,7 +12,7 @@ Defined in: [types/prefecture.ts:4](https://github.com/ryohidaka/node-connpass/b
 
 > **AICHI**: `"aichi"`
 
-Defined in: [types/prefecture.ts:28](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L28)
+Defined in: [types/prefecture.ts:28](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L28)
 
 ***
 
@@ -20,7 +20,7 @@ Defined in: [types/prefecture.ts:28](https://github.com/ryohidaka/node-connpass/
 
 > **AKITA**: `"akita"`
 
-Defined in: [types/prefecture.ts:10](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L10)
+Defined in: [types/prefecture.ts:10](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L10)
 
 ***
 
@@ -28,7 +28,7 @@ Defined in: [types/prefecture.ts:10](https://github.com/ryohidaka/node-connpass/
 
 > **AOMORI**: `"aomori"`
 
-Defined in: [types/prefecture.ts:7](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L7)
+Defined in: [types/prefecture.ts:7](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L7)
 
 ***
 
@@ -36,7 +36,7 @@ Defined in: [types/prefecture.ts:7](https://github.com/ryohidaka/node-connpass/b
 
 > **CHIBA**: `"chiba"`
 
-Defined in: [types/prefecture.ts:17](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L17)
+Defined in: [types/prefecture.ts:17](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L17)
 
 ***
 
@@ -44,7 +44,7 @@ Defined in: [types/prefecture.ts:17](https://github.com/ryohidaka/node-connpass/
 
 > **EHIME**: `"ehime"`
 
-Defined in: [types/prefecture.ts:43](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L43)
+Defined in: [types/prefecture.ts:43](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L43)
 
 ***
 
@@ -52,7 +52,7 @@ Defined in: [types/prefecture.ts:43](https://github.com/ryohidaka/node-connpass/
 
 > **FUKUI**: `"fukui"`
 
-Defined in: [types/prefecture.ts:25](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L25)
+Defined in: [types/prefecture.ts:25](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L25)
 
 ***
 
@@ -60,7 +60,7 @@ Defined in: [types/prefecture.ts:25](https://github.com/ryohidaka/node-connpass/
 
 > **FUKUOKA**: `"fukuoka"`
 
-Defined in: [types/prefecture.ts:45](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L45)
+Defined in: [types/prefecture.ts:45](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L45)
 
 ***
 
@@ -68,7 +68,7 @@ Defined in: [types/prefecture.ts:45](https://github.com/ryohidaka/node-connpass/
 
 > **FUKUSHIMA**: `"fukushima"`
 
-Defined in: [types/prefecture.ts:12](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L12)
+Defined in: [types/prefecture.ts:12](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L12)
 
 ***
 
@@ -76,7 +76,7 @@ Defined in: [types/prefecture.ts:12](https://github.com/ryohidaka/node-connpass/
 
 > **GIFU**: `"gifu"`
 
-Defined in: [types/prefecture.ts:26](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L26)
+Defined in: [types/prefecture.ts:26](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L26)
 
 ***
 
@@ -84,7 +84,7 @@ Defined in: [types/prefecture.ts:26](https://github.com/ryohidaka/node-connpass/
 
 > **GUNMA**: `"gunma"`
 
-Defined in: [types/prefecture.ts:15](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L15)
+Defined in: [types/prefecture.ts:15](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L15)
 
 ***
 
@@ -92,7 +92,7 @@ Defined in: [types/prefecture.ts:15](https://github.com/ryohidaka/node-connpass/
 
 > **HIROSHIMA**: `"hiroshima"`
 
-Defined in: [types/prefecture.ts:39](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L39)
+Defined in: [types/prefecture.ts:39](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L39)
 
 ***
 
@@ -100,7 +100,7 @@ Defined in: [types/prefecture.ts:39](https://github.com/ryohidaka/node-connpass/
 
 > **HOKKAIDO**: `"hokkaido"`
 
-Defined in: [types/prefecture.ts:6](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L6)
+Defined in: [types/prefecture.ts:6](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L6)
 
 ***
 
@@ -108,7 +108,7 @@ Defined in: [types/prefecture.ts:6](https://github.com/ryohidaka/node-connpass/b
 
 > **HYOGO**: `"hyogo"`
 
-Defined in: [types/prefecture.ts:33](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L33)
+Defined in: [types/prefecture.ts:33](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L33)
 
 ***
 
@@ -116,7 +116,7 @@ Defined in: [types/prefecture.ts:33](https://github.com/ryohidaka/node-connpass/
 
 > **IBARAKI**: `"ibaraki"`
 
-Defined in: [types/prefecture.ts:13](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L13)
+Defined in: [types/prefecture.ts:13](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L13)
 
 ***
 
@@ -124,7 +124,7 @@ Defined in: [types/prefecture.ts:13](https://github.com/ryohidaka/node-connpass/
 
 > **ISHIKAWA**: `"ishikawa"`
 
-Defined in: [types/prefecture.ts:24](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L24)
+Defined in: [types/prefecture.ts:24](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L24)
 
 ***
 
@@ -132,7 +132,7 @@ Defined in: [types/prefecture.ts:24](https://github.com/ryohidaka/node-connpass/
 
 > **IWATE**: `"iwate"`
 
-Defined in: [types/prefecture.ts:8](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L8)
+Defined in: [types/prefecture.ts:8](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L8)
 
 ***
 
@@ -140,7 +140,7 @@ Defined in: [types/prefecture.ts:8](https://github.com/ryohidaka/node-connpass/b
 
 > **KAGAWA**: `"kagawa"`
 
-Defined in: [types/prefecture.ts:42](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L42)
+Defined in: [types/prefecture.ts:42](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L42)
 
 ***
 
@@ -148,7 +148,7 @@ Defined in: [types/prefecture.ts:42](https://github.com/ryohidaka/node-connpass/
 
 > **KAGOSHIMA**: `"kagoshima"`
 
-Defined in: [types/prefecture.ts:51](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L51)
+Defined in: [types/prefecture.ts:51](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L51)
 
 ***
 
@@ -156,7 +156,7 @@ Defined in: [types/prefecture.ts:51](https://github.com/ryohidaka/node-connpass/
 
 > **KANAGAWA**: `"kanagawa"`
 
-Defined in: [types/prefecture.ts:19](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L19)
+Defined in: [types/prefecture.ts:19](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L19)
 
 ***
 
@@ -164,7 +164,7 @@ Defined in: [types/prefecture.ts:19](https://github.com/ryohidaka/node-connpass/
 
 > **KOCHI**: `"kochi"`
 
-Defined in: [types/prefecture.ts:44](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L44)
+Defined in: [types/prefecture.ts:44](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L44)
 
 ***
 
@@ -172,7 +172,7 @@ Defined in: [types/prefecture.ts:44](https://github.com/ryohidaka/node-connpass/
 
 > **KUMAMOTO**: `"kumamoto"`
 
-Defined in: [types/prefecture.ts:48](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L48)
+Defined in: [types/prefecture.ts:48](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L48)
 
 ***
 
@@ -180,7 +180,7 @@ Defined in: [types/prefecture.ts:48](https://github.com/ryohidaka/node-connpass/
 
 > **KYOTO**: `"kyoto"`
 
-Defined in: [types/prefecture.ts:31](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L31)
+Defined in: [types/prefecture.ts:31](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L31)
 
 ***
 
@@ -188,7 +188,7 @@ Defined in: [types/prefecture.ts:31](https://github.com/ryohidaka/node-connpass/
 
 > **MIE**: `"mie"`
 
-Defined in: [types/prefecture.ts:29](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L29)
+Defined in: [types/prefecture.ts:29](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L29)
 
 ***
 
@@ -196,7 +196,7 @@ Defined in: [types/prefecture.ts:29](https://github.com/ryohidaka/node-connpass/
 
 > **MIYAGI**: `"miyagi"`
 
-Defined in: [types/prefecture.ts:9](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L9)
+Defined in: [types/prefecture.ts:9](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L9)
 
 ***
 
@@ -204,7 +204,7 @@ Defined in: [types/prefecture.ts:9](https://github.com/ryohidaka/node-connpass/b
 
 > **MIYAZAKI**: `"miyazaki"`
 
-Defined in: [types/prefecture.ts:50](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L50)
+Defined in: [types/prefecture.ts:50](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L50)
 
 ***
 
@@ -212,7 +212,7 @@ Defined in: [types/prefecture.ts:50](https://github.com/ryohidaka/node-connpass/
 
 > **NAGANO**: `"nagano"`
 
-Defined in: [types/prefecture.ts:21](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L21)
+Defined in: [types/prefecture.ts:21](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L21)
 
 ***
 
@@ -220,7 +220,7 @@ Defined in: [types/prefecture.ts:21](https://github.com/ryohidaka/node-connpass/
 
 > **NAGASAKI**: `"nagasaki"`
 
-Defined in: [types/prefecture.ts:47](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L47)
+Defined in: [types/prefecture.ts:47](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L47)
 
 ***
 
@@ -228,7 +228,7 @@ Defined in: [types/prefecture.ts:47](https://github.com/ryohidaka/node-connpass/
 
 > **NARA**: `"nara"`
 
-Defined in: [types/prefecture.ts:34](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L34)
+Defined in: [types/prefecture.ts:34](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L34)
 
 ***
 
@@ -236,7 +236,7 @@ Defined in: [types/prefecture.ts:34](https://github.com/ryohidaka/node-connpass/
 
 > **NIIGATA**: `"niigata"`
 
-Defined in: [types/prefecture.ts:22](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L22)
+Defined in: [types/prefecture.ts:22](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L22)
 
 ***
 
@@ -244,7 +244,7 @@ Defined in: [types/prefecture.ts:22](https://github.com/ryohidaka/node-connpass/
 
 > **OITA**: `"oita"`
 
-Defined in: [types/prefecture.ts:49](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L49)
+Defined in: [types/prefecture.ts:49](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L49)
 
 ***
 
@@ -252,7 +252,7 @@ Defined in: [types/prefecture.ts:49](https://github.com/ryohidaka/node-connpass/
 
 > **OKAYAMA**: `"okayama"`
 
-Defined in: [types/prefecture.ts:38](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L38)
+Defined in: [types/prefecture.ts:38](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L38)
 
 ***
 
@@ -260,7 +260,7 @@ Defined in: [types/prefecture.ts:38](https://github.com/ryohidaka/node-connpass/
 
 > **OKINAWA**: `"okinawa"`
 
-Defined in: [types/prefecture.ts:52](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L52)
+Defined in: [types/prefecture.ts:52](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L52)
 
 ***
 
@@ -268,7 +268,7 @@ Defined in: [types/prefecture.ts:52](https://github.com/ryohidaka/node-connpass/
 
 > **ONLINE**: `"online"`
 
-Defined in: [types/prefecture.ts:5](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L5)
+Defined in: [types/prefecture.ts:5](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L5)
 
 ***
 
@@ -276,7 +276,7 @@ Defined in: [types/prefecture.ts:5](https://github.com/ryohidaka/node-connpass/b
 
 > **OSAKA**: `"osaka"`
 
-Defined in: [types/prefecture.ts:32](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L32)
+Defined in: [types/prefecture.ts:32](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L32)
 
 ***
 
@@ -284,7 +284,7 @@ Defined in: [types/prefecture.ts:32](https://github.com/ryohidaka/node-connpass/
 
 > **SAGA**: `"saga"`
 
-Defined in: [types/prefecture.ts:46](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L46)
+Defined in: [types/prefecture.ts:46](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L46)
 
 ***
 
@@ -292,7 +292,7 @@ Defined in: [types/prefecture.ts:46](https://github.com/ryohidaka/node-connpass/
 
 > **SAITAMA**: `"saitama"`
 
-Defined in: [types/prefecture.ts:16](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L16)
+Defined in: [types/prefecture.ts:16](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L16)
 
 ***
 
@@ -300,7 +300,7 @@ Defined in: [types/prefecture.ts:16](https://github.com/ryohidaka/node-connpass/
 
 > **SHIGA**: `"shiga"`
 
-Defined in: [types/prefecture.ts:30](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L30)
+Defined in: [types/prefecture.ts:30](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L30)
 
 ***
 
@@ -308,7 +308,7 @@ Defined in: [types/prefecture.ts:30](https://github.com/ryohidaka/node-connpass/
 
 > **SHIMANE**: `"shimane"`
 
-Defined in: [types/prefecture.ts:37](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L37)
+Defined in: [types/prefecture.ts:37](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L37)
 
 ***
 
@@ -316,7 +316,7 @@ Defined in: [types/prefecture.ts:37](https://github.com/ryohidaka/node-connpass/
 
 > **SHIZUOKA**: `"shizuoka"`
 
-Defined in: [types/prefecture.ts:27](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L27)
+Defined in: [types/prefecture.ts:27](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L27)
 
 ***
 
@@ -324,7 +324,7 @@ Defined in: [types/prefecture.ts:27](https://github.com/ryohidaka/node-connpass/
 
 > **TOCHIGI**: `"tochigi"`
 
-Defined in: [types/prefecture.ts:14](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L14)
+Defined in: [types/prefecture.ts:14](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L14)
 
 ***
 
@@ -332,7 +332,7 @@ Defined in: [types/prefecture.ts:14](https://github.com/ryohidaka/node-connpass/
 
 > **TOKUSHIMA**: `"tokushima"`
 
-Defined in: [types/prefecture.ts:41](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L41)
+Defined in: [types/prefecture.ts:41](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L41)
 
 ***
 
@@ -340,7 +340,7 @@ Defined in: [types/prefecture.ts:41](https://github.com/ryohidaka/node-connpass/
 
 > **TOKYO**: `"tokyo"`
 
-Defined in: [types/prefecture.ts:18](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L18)
+Defined in: [types/prefecture.ts:18](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L18)
 
 ***
 
@@ -348,7 +348,7 @@ Defined in: [types/prefecture.ts:18](https://github.com/ryohidaka/node-connpass/
 
 > **TOTTORI**: `"tottori"`
 
-Defined in: [types/prefecture.ts:36](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L36)
+Defined in: [types/prefecture.ts:36](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L36)
 
 ***
 
@@ -356,7 +356,7 @@ Defined in: [types/prefecture.ts:36](https://github.com/ryohidaka/node-connpass/
 
 > **TOYAMA**: `"toyama"`
 
-Defined in: [types/prefecture.ts:23](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L23)
+Defined in: [types/prefecture.ts:23](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L23)
 
 ***
 
@@ -364,7 +364,7 @@ Defined in: [types/prefecture.ts:23](https://github.com/ryohidaka/node-connpass/
 
 > **WAKAYAMA**: `"wakayama"`
 
-Defined in: [types/prefecture.ts:35](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L35)
+Defined in: [types/prefecture.ts:35](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L35)
 
 ***
 
@@ -372,7 +372,7 @@ Defined in: [types/prefecture.ts:35](https://github.com/ryohidaka/node-connpass/
 
 > **YAMAGATA**: `"yamagata"`
 
-Defined in: [types/prefecture.ts:11](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L11)
+Defined in: [types/prefecture.ts:11](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L11)
 
 ***
 
@@ -380,7 +380,7 @@ Defined in: [types/prefecture.ts:11](https://github.com/ryohidaka/node-connpass/
 
 > **YAMAGUCHI**: `"yamaguchi"`
 
-Defined in: [types/prefecture.ts:40](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L40)
+Defined in: [types/prefecture.ts:40](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L40)
 
 ***
 
@@ -388,4 +388,4 @@ Defined in: [types/prefecture.ts:40](https://github.com/ryohidaka/node-connpass/
 
 > **YAMANASHI**: `"yamanashi"`
 
-Defined in: [types/prefecture.ts:20](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/prefecture.ts#L20)
+Defined in: [types/prefecture.ts:20](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/prefecture.ts#L20)

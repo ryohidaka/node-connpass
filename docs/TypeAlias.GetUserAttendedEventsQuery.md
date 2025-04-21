@@ -4,6 +4,6 @@
 
 > **GetUserAttendedEventsQuery** = [`BaseQuery`](../wiki/TypeAlias.BaseQuery)
 
-Defined in: [types/user.ts:71](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/user.ts#L71)
+Defined in: [types/user.ts:71](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/user.ts#L71)
 
 ユーザーが参加したイベント一覧のパラメータ

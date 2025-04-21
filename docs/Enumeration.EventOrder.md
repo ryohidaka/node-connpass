@@ -2,7 +2,7 @@
 
 # Enumeration: EventOrder
 
-Defined in: [types/event.ts:101](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L101)
+Defined in: [types/event.ts:101](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L101)
 
 検索結果の表示順
 
@@ -16,7 +16,7 @@ Defined in: [types/event.ts:101](https://github.com/ryohidaka/node-connpass/blob
 
 > **CREATED\_AT**: `3`
 
-Defined in: [types/event.ts:104](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L104)
+Defined in: [types/event.ts:104](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L104)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [types/event.ts:104](https://github.com/ryohidaka/node-connpass/blob
 
 > **STARTED\_AT**: `2`
 
-Defined in: [types/event.ts:103](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L103)
+Defined in: [types/event.ts:103](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L103)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [types/event.ts:103](https://github.com/ryohidaka/node-connpass/blob
 
 > **UPDATED\_AT**: `1`
 
-Defined in: [types/event.ts:102](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L102)
+Defined in: [types/event.ts:102](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L102)

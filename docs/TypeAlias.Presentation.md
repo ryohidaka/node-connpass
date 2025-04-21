@@ -4,7 +4,7 @@
 
 > **Presentation** = `object`
 
-Defined in: [types/presentation.ts:6](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/presentation.ts#L6)
+Defined in: [types/presentation.ts:6](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/presentation.ts#L6)
 
 資料
 
@@ -14,7 +14,7 @@ Defined in: [types/presentation.ts:6](https://github.com/ryohidaka/node-connpass
 
 > **created\_at**: [`ISO8601`](../wiki/TypeAlias.ISO8601)
 
-Defined in: [types/presentation.ts:22](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/presentation.ts#L22)
+Defined in: [types/presentation.ts:22](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/presentation.ts#L22)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types/presentation.ts:22](https://github.com/ryohidaka/node-connpas
 
 > **name**: `string`
 
-Defined in: [types/presentation.ts:16](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/presentation.ts#L16)
+Defined in: [types/presentation.ts:16](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/presentation.ts#L16)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types/presentation.ts:16](https://github.com/ryohidaka/node-connpas
 
 > **presentation\_type**: [`PresentationType`](../wiki/Enumeration.PresentationType)
 
-Defined in: [types/presentation.ts:20](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/presentation.ts#L20)
+Defined in: [types/presentation.ts:20](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/presentation.ts#L20)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types/presentation.ts:20](https://github.com/ryohidaka/node-connpas
 
 > **presenter**: `User`
 
-Defined in: [types/presentation.ts:18](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/presentation.ts#L18)
+Defined in: [types/presentation.ts:18](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/presentation.ts#L18)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [types/presentation.ts:18](https://github.com/ryohidaka/node-connpas
 
 > **url**: `string`
 
-Defined in: [types/presentation.ts:14](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/presentation.ts#L14)
+Defined in: [types/presentation.ts:14](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/presentation.ts#L14)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [types/presentation.ts:14](https://github.com/ryohidaka/node-connpas
 
 > **user**: `User`
 
-Defined in: [types/presentation.ts:12](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/presentation.ts#L12)
+Defined in: [types/presentation.ts:12](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/presentation.ts#L12)
 
 投稿者
 

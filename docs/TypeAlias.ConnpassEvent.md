@@ -4,7 +4,7 @@
 
 > **ConnpassEvent** = `object`
 
-Defined in: [types/event.ts:45](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L45)
+Defined in: [types/event.ts:45](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L45)
 
 イベント
 
@@ -14,7 +14,7 @@ Defined in: [types/event.ts:45](https://github.com/ryohidaka/node-connpass/blob/
 
 > **accepted**: `number`
 
-Defined in: [types/event.ts:87](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L87)
+Defined in: [types/event.ts:87](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L87)
 
 ***
 
@@ -22,7 +22,7 @@ Defined in: [types/event.ts:87](https://github.com/ryohidaka/node-connpass/blob/
 
 > **address**: `string`
 
-Defined in: [types/event.ts:73](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L73)
+Defined in: [types/event.ts:73](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L73)
 
 ***
 
@@ -30,7 +30,7 @@ Defined in: [types/event.ts:73](https://github.com/ryohidaka/node-connpass/blob/
 
 > **catch**: `string`
 
-Defined in: [types/event.ts:51](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L51)
+Defined in: [types/event.ts:51](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L51)
 
 ***
 
@@ -38,7 +38,7 @@ Defined in: [types/event.ts:51](https://github.com/ryohidaka/node-connpass/blob/
 
 > **description**: `string`
 
-Defined in: [types/event.ts:53](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L53)
+Defined in: [types/event.ts:53](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L53)
 
 ***
 
@@ -46,7 +46,7 @@ Defined in: [types/event.ts:53](https://github.com/ryohidaka/node-connpass/blob/
 
 > **ended\_at**: [`ISO8601`](../wiki/TypeAlias.ISO8601)
 
-Defined in: [types/event.ts:63](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L63)
+Defined in: [types/event.ts:63](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L63)
 
 ***
 
@@ -54,7 +54,7 @@ Defined in: [types/event.ts:63](https://github.com/ryohidaka/node-connpass/blob/
 
 > **event\_type**: [`EventType`](../wiki/Enumeration.EventType)
 
-Defined in: [types/event.ts:67](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L67)
+Defined in: [types/event.ts:67](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L67)
 
 ***
 
@@ -62,7 +62,7 @@ Defined in: [types/event.ts:67](https://github.com/ryohidaka/node-connpass/blob/
 
 > **group**: `Group`
 
-Defined in: [types/event.ts:71](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L71)
+Defined in: [types/event.ts:71](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L71)
 
 ***
 
@@ -70,7 +70,7 @@ Defined in: [types/event.ts:71](https://github.com/ryohidaka/node-connpass/blob/
 
 > **hash\_tag**: `string`
 
-Defined in: [types/event.ts:59](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L59)
+Defined in: [types/event.ts:59](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L59)
 
 ***
 
@@ -78,7 +78,7 @@ Defined in: [types/event.ts:59](https://github.com/ryohidaka/node-connpass/blob/
 
 > **id**: `number`
 
-Defined in: [types/event.ts:47](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L47)
+Defined in: [types/event.ts:47](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L47)
 
 ***
 
@@ -86,7 +86,7 @@ Defined in: [types/event.ts:47](https://github.com/ryohidaka/node-connpass/blob/
 
 > **image\_url**: `string`
 
-Defined in: [types/event.ts:57](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L57)
+Defined in: [types/event.ts:57](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L57)
 
 ***
 
@@ -94,7 +94,7 @@ Defined in: [types/event.ts:57](https://github.com/ryohidaka/node-connpass/blob/
 
 > **lat**: `string`
 
-Defined in: [types/event.ts:77](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L77)
+Defined in: [types/event.ts:77](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L77)
 
 ***
 
@@ -102,7 +102,7 @@ Defined in: [types/event.ts:77](https://github.com/ryohidaka/node-connpass/blob/
 
 > **limit**: `number`
 
-Defined in: [types/event.ts:65](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L65)
+Defined in: [types/event.ts:65](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L65)
 
 ***
 
@@ -110,7 +110,7 @@ Defined in: [types/event.ts:65](https://github.com/ryohidaka/node-connpass/blob/
 
 > **lon**: `string`
 
-Defined in: [types/event.ts:79](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L79)
+Defined in: [types/event.ts:79](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L79)
 
 ***
 
@@ -118,7 +118,7 @@ Defined in: [types/event.ts:79](https://github.com/ryohidaka/node-connpass/blob/
 
 > **open\_status**: [`OpenStatus`](../wiki/Enumeration.OpenStatus)
 
-Defined in: [types/event.ts:69](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L69)
+Defined in: [types/event.ts:69](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L69)
 
 ***
 
@@ -126,7 +126,7 @@ Defined in: [types/event.ts:69](https://github.com/ryohidaka/node-connpass/blob/
 
 > **owner\_display\_name**: `string`
 
-Defined in: [types/event.ts:85](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L85)
+Defined in: [types/event.ts:85](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L85)
 
 ***
 
@@ -134,7 +134,7 @@ Defined in: [types/event.ts:85](https://github.com/ryohidaka/node-connpass/blob/
 
 > **owner\_id**: `number`
 
-Defined in: [types/event.ts:81](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L81)
+Defined in: [types/event.ts:81](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L81)
 
 ***
 
@@ -142,7 +142,7 @@ Defined in: [types/event.ts:81](https://github.com/ryohidaka/node-connpass/blob/
 
 > **owner\_nickname**: `string`
 
-Defined in: [types/event.ts:83](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L83)
+Defined in: [types/event.ts:83](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L83)
 
 ***
 
@@ -150,7 +150,7 @@ Defined in: [types/event.ts:83](https://github.com/ryohidaka/node-connpass/blob/
 
 > **place**: `string`
 
-Defined in: [types/event.ts:75](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L75)
+Defined in: [types/event.ts:75](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L75)
 
 ***
 
@@ -158,7 +158,7 @@ Defined in: [types/event.ts:75](https://github.com/ryohidaka/node-connpass/blob/
 
 > **started\_at**: [`ISO8601`](../wiki/TypeAlias.ISO8601)
 
-Defined in: [types/event.ts:61](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L61)
+Defined in: [types/event.ts:61](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L61)
 
 ***
 
@@ -166,7 +166,7 @@ Defined in: [types/event.ts:61](https://github.com/ryohidaka/node-connpass/blob/
 
 > **title**: `string`
 
-Defined in: [types/event.ts:49](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L49)
+Defined in: [types/event.ts:49](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L49)
 
 ***
 
@@ -174,7 +174,7 @@ Defined in: [types/event.ts:49](https://github.com/ryohidaka/node-connpass/blob/
 
 > **updated\_at**: [`ISO8601`](../wiki/TypeAlias.ISO8601)
 
-Defined in: [types/event.ts:91](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L91)
+Defined in: [types/event.ts:91](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L91)
 
 ***
 
@@ -182,7 +182,7 @@ Defined in: [types/event.ts:91](https://github.com/ryohidaka/node-connpass/blob/
 
 > **url**: `string`
 
-Defined in: [types/event.ts:55](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L55)
+Defined in: [types/event.ts:55](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L55)
 
 ***
 
@@ -190,4 +190,4 @@ Defined in: [types/event.ts:55](https://github.com/ryohidaka/node-connpass/blob/
 
 > **waiting**: `number`
 
-Defined in: [types/event.ts:89](https://github.com/ryohidaka/node-connpass/blob/498bb7569eeb752a9c8dac2ec862504840e66957/src/types/event.ts#L89)
+Defined in: [types/event.ts:89](https://github.com/ryohidaka/node-connpass/blob/800ebb10fa1d025fb9b43567e6fa2b5ec8ce8b50/src/types/event.ts#L89)
