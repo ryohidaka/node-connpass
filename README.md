@@ -48,6 +48,12 @@ async function run() {
 
   // ユーザー所属グループ一覧取得
   const { groups } = await client.getUserGroups('haru860')
+
+  // ユーザー参加イベント一覧取得
+  const { events } = await client.getUserAttendedEvents('haru860')
+
+  // ユーザー発表イベント一覧取得
+  const { events } = await client.getUserPresenterEvents('haru860')
 }
 ```
 
