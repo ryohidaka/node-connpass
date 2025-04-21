@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.6.0](https://github.com/ryohidaka/node-connpass/compare/v2.5.0...v2.6.0) (2025-04-21)
+
+
+### Features
+
+* Add getUserPresenterEvents(). ([0ded16c](https://github.com/ryohidaka/node-connpass/commit/0ded16c5139abd225c2839d114fb2c711c611484))
+* **example:** Add example for getUserPresenterEvents(). ([27d9b7a](https://github.com/ryohidaka/node-connpass/commit/27d9b7a0c6750caaf9fe3cdb31b23bf4e6eccd3e))
+* **types:** Add types for user presenter events. ([bc603e8](https://github.com/ryohidaka/node-connpass/commit/bc603e877274f3d55f2d6b7b3a8c2203ef3705d7))
+
 ## [2.5.0](https://github.com/ryohidaka/node-connpass/compare/v2.4.0...v2.5.0) (2025-04-20)
 
 
