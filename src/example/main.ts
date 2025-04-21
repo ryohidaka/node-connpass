@@ -29,6 +29,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <h3>ユーザー参加イベント一覧</h3>
     <button id="fetchUserAttendedEvents">ユーザー参加イベント取得</button>
     <div id="userAttendedEventsResult"></div>
+    <hr />
+    <h3>ユーザー発表イベント一覧</h3>
+    <button id="fetchUserPresenterEvents">ユーザー発表イベント取得</button>
+    <div id="userPresenterEventsResult"></div>
   </div>
 `
 
@@ -257,6 +261,43 @@ function renderUserAttendedEvents(events: ConnpassEvent[]): string {
   `
 }
 
+// ユーザー発表イベント一覧HTML生成関数
+function renderUserPresenterEvents(events: ConnpassEvent[]): string {
+  if (events.length === 0) {
+    return '<p>イベントが見つかりませんでした。</p>'
+  }
+
+  return `
+    <h3>ユーザー発表イベント一覧</h3>
+    <table border="1" cellpadding="5">
+      <thead>
+        <tr>
+          <th>イベントID</th>
+          <th>イベント名</th>
+          <th>開催日時</th>
+          <th>イベント画像</th>
+          <th>URL</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${events
+          .map(
+            (event) => `
+          <tr>
+            <td>${event.id}</td>
+            <td>${event.title}</td>
+            <td>${event.started_at}</td>
+            <td><img src="${event.image_url}" width="100" /></td>
+            <td><a href="${event.url}" target="_blank">リンク</a></td>
+          </tr>
+        `,
+          )
+          .join('')}
+      </tbody>
+    </table>
+  `
+}
+
 // イベント取得処理
 document.getElementById('fetchEvents')?.addEventListener('click', async () => {
   const resultDiv = document.getElementById('eventsResult')!
@@ -359,6 +400,22 @@ document
       const response = await connpass.getUserAttendedEvents('haru860')
 
       resultDiv.innerHTML = renderUserAttendedEvents(response.events)
+    } catch (e: any) {
+      resultDiv.innerHTML = `<p style="color:red;">エラー: ${e.message}</p>`
+    }
+  })
+
+// ユーザー発表イベント取得処理
+document
+  .getElementById('fetchUserPresenterEvents')
+  ?.addEventListener('click', async () => {
+    const resultDiv = document.getElementById('userPresenterEventsResult')!
+    resultDiv.innerHTML = `<p>イベント取得中...</p>`
+
+    try {
+      const response = await connpass.getUserPresenterEvents('haru860')
+
+      resultDiv.innerHTML = renderUserPresenterEvents(response.events)
     } catch (e: any) {
       resultDiv.innerHTML = `<p style="color:red;">エラー: ${e.message}</p>`
     }
