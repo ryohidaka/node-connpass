@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.7.0](https://github.com/ryohidaka/node-connpass/compare/v2.6.0...v2.7.0) (2025-04-21)
+
+
+### Features
+
+* **package:** Install typedoc-github-wiki-theme. ([8e79bd1](https://github.com/ryohidaka/node-connpass/commit/8e79bd13c8a8a5b2692e604c8f5e9bb8303dce6c))
+
 ## [2.6.0](https://github.com/ryohidaka/node-connpass/compare/v2.5.0...v2.6.0) (2025-04-21)
 
 
