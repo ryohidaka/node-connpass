@@ -1,6 +1,6 @@
 {
   "name": "connpass-v2",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "The connpass API client library for Node.js.",
   "keywords": [
     "connpass"
