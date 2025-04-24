@@ -24,6 +24,7 @@
 - [ConnpassEvent](type-aliases/ConnpassEvent.md)
 - [ConnpassGroup](type-aliases/ConnpassGroup.md)
 - [ConnpassUser](type-aliases/ConnpassUser.md)
+- [GetEventPresentationsQuery](type-aliases/GetEventPresentationsQuery.md)
 - [GetEventPresentationsResponse](type-aliases/GetEventPresentationsResponse.md)
 - [GetEventsQuery](type-aliases/GetEventsQuery.md)
 - [GetEventsResponse](type-aliases/GetEventsResponse.md)

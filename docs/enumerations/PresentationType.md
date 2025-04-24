@@ -6,7 +6,7 @@
 
 # Enumeration: PresentationType
 
-Defined in: [types/presentation.ts:28](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/presentation.ts#L28)
+Defined in: [types/presentation.ts:41](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/presentation.ts#L41)
 
 資料タイプ
 
@@ -16,7 +16,7 @@ Defined in: [types/presentation.ts:28](https://github.com/ryohidaka/node-connpas
 
 > **BLOG**: `"blog"`
 
-Defined in: [types/presentation.ts:34](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/presentation.ts#L34)
+Defined in: [types/presentation.ts:47](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/presentation.ts#L47)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [types/presentation.ts:34](https://github.com/ryohidaka/node-connpas
 
 > **MOVIE**: `"movie"`
 
-Defined in: [types/presentation.ts:32](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/presentation.ts#L32)
+Defined in: [types/presentation.ts:45](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/presentation.ts#L45)
 
 ***
 
@@ -32,4 +32,4 @@ Defined in: [types/presentation.ts:32](https://github.com/ryohidaka/node-connpas
 
 > **SLIDE**: `"slide"`
 
-Defined in: [types/presentation.ts:30](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/presentation.ts#L30)
+Defined in: [types/presentation.ts:43](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/presentation.ts#L43)

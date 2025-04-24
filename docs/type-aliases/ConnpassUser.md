@@ -8,7 +8,7 @@
 
 > **ConnpassUser** = `object`
 
-Defined in: [types/user.ts:30](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/user.ts#L30)
+Defined in: [types/user.ts:30](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/user.ts#L30)
 
 ユーザー
 
@@ -18,7 +18,7 @@ Defined in: [types/user.ts:30](https://github.com/ryohidaka/node-connpass/blob/1
 
 > **attended\_event\_count**: `number`
 
-Defined in: [types/user.ts:46](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/user.ts#L46)
+Defined in: [types/user.ts:46](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/user.ts#L46)
 
 ***
 
@@ -26,7 +26,7 @@ Defined in: [types/user.ts:46](https://github.com/ryohidaka/node-connpass/blob/1
 
 > **bookmark\_event\_count**: `number`
 
-Defined in: [types/user.ts:52](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/user.ts#L52)
+Defined in: [types/user.ts:52](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/user.ts#L52)
 
 ***
 
@@ -34,7 +34,7 @@ Defined in: [types/user.ts:52](https://github.com/ryohidaka/node-connpass/blob/1
 
 > **created\_at**: [`ISO8601`](ISO8601.md)
 
-Defined in: [types/user.ts:44](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/user.ts#L44)
+Defined in: [types/user.ts:44](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/user.ts#L44)
 
 ***
 
@@ -42,7 +42,7 @@ Defined in: [types/user.ts:44](https://github.com/ryohidaka/node-connpass/blob/1
 
 > **description**: `string`
 
-Defined in: [types/user.ts:38](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/user.ts#L38)
+Defined in: [types/user.ts:38](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/user.ts#L38)
 
 ***
 
@@ -50,7 +50,7 @@ Defined in: [types/user.ts:38](https://github.com/ryohidaka/node-connpass/blob/1
 
 > **display\_name**: `string`
 
-Defined in: [types/user.ts:36](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/user.ts#L36)
+Defined in: [types/user.ts:36](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/user.ts#L36)
 
 ***
 
@@ -58,7 +58,7 @@ Defined in: [types/user.ts:36](https://github.com/ryohidaka/node-connpass/blob/1
 
 > **id**: `number`
 
-Defined in: [types/user.ts:32](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/user.ts#L32)
+Defined in: [types/user.ts:32](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/user.ts#L32)
 
 ***
 
@@ -66,7 +66,7 @@ Defined in: [types/user.ts:32](https://github.com/ryohidaka/node-connpass/blob/1
 
 > **image\_url**: `string`
 
-Defined in: [types/user.ts:42](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/user.ts#L42)
+Defined in: [types/user.ts:42](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/user.ts#L42)
 
 ***
 
@@ -74,7 +74,7 @@ Defined in: [types/user.ts:42](https://github.com/ryohidaka/node-connpass/blob/1
 
 > **nickname**: `string`
 
-Defined in: [types/user.ts:34](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/user.ts#L34)
+Defined in: [types/user.ts:34](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/user.ts#L34)
 
 ***
 
@@ -82,7 +82,7 @@ Defined in: [types/user.ts:34](https://github.com/ryohidaka/node-connpass/blob/1
 
 > **organize\_event\_count**: `number`
 
-Defined in: [types/user.ts:48](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/user.ts#L48)
+Defined in: [types/user.ts:48](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/user.ts#L48)
 
 ***
 
@@ -90,7 +90,7 @@ Defined in: [types/user.ts:48](https://github.com/ryohidaka/node-connpass/blob/1
 
 > **presenter\_event\_count**: `number`
 
-Defined in: [types/user.ts:50](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/user.ts#L50)
+Defined in: [types/user.ts:50](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/user.ts#L50)
 
 ***
 
@@ -98,4 +98,4 @@ Defined in: [types/user.ts:50](https://github.com/ryohidaka/node-connpass/blob/1
 
 > **url**: `string`
 
-Defined in: [types/user.ts:40](https://github.com/ryohidaka/node-connpass/blob/1ae7f0b2e153a6215fcc18b6a6cd863768884c30/src/types/user.ts#L40)
+Defined in: [types/user.ts:40](https://github.com/ryohidaka/node-connpass/blob/eef41deb7cb24b91ec8c67d8e4085575b4debd33/src/types/user.ts#L40)
