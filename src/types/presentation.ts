@@ -1,4 +1,17 @@
-import { ISO8601 } from '.'
+import { BaseQuery, BaseResponse, ISO8601 } from '.'
+
+/**
+ * イベント資料一覧のパラメータ
+ */
+export type GetEventPresentationsQuery = BaseQuery
+
+/**
+ * イベント資料一覧のレスポンス
+ */
+export type GetEventPresentationsResponse = BaseResponse & {
+  /* 資料一覧 */
+  presentations: Presentation[]
+}
 
 /**
  * 資料

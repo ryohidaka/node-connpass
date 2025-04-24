@@ -1,4 +1,4 @@
-import { BaseQuery, BaseResponse, ISO8601, Presentation } from '.'
+import { BaseQuery, BaseResponse, ISO8601 } from '.'
 import { Prefecture } from './prefecture'
 
 /**
@@ -140,12 +140,4 @@ type Group = {
   title: string
   /* グループのconnpass.com上のURL */
   url: string
-}
-
-/**
- * イベント資料一覧
- */
-export type GetEventPresentationsResponse = BaseResponse & {
-  /* 資料一覧 */
-  presentations: Presentation[]
 }

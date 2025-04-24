@@ -2,6 +2,7 @@ import axios, { AxiosInstance } from 'axios'
 import qs from 'qs'
 import {
   BaseQuery,
+  GetEventPresentationsQuery,
   GetEventPresentationsResponse,
   GetEventsQuery,
   GetEventsResponse,
@@ -102,7 +103,7 @@ export class Connpass {
    */
   async getEventPresentations(
     id: string,
-    query?: BaseQuery,
+    query?: GetEventPresentationsQuery,
   ): Promise<GetEventPresentationsResponse> {
     return this.request<GetEventPresentationsResponse>(
       `events/${id}/presentations`,
