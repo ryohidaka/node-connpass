@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.7.1](https://github.com/ryohidaka/node-connpass/compare/v2.7.0...v2.7.1) (2025-04-24)
+
+
+### Bug Fixes
+
+* **types:** Change types for event presentations. ([df68f7d](https://github.com/ryohidaka/node-connpass/commit/df68f7d1ae3cdeb48c30978393cbbf45ada68f0f))
+
 ## [2.7.0](https://github.com/ryohidaka/node-connpass/compare/v2.6.0...v2.7.0) (2025-04-21)
 
 
