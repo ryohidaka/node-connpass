@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.7.2](https://github.com/ryohidaka/node-connpass/compare/v2.7.1...v2.7.2) (2025-04-24)
+
+
+### Bug Fixes
+
+* Remove unused import. ([eef41de](https://github.com/ryohidaka/node-connpass/commit/eef41deb7cb24b91ec8c67d8e4085575b4debd33))
+
 ## [2.7.1](https://github.com/ryohidaka/node-connpass/compare/v2.7.0...v2.7.1) (2025-04-24)
 
 
