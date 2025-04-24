@@ -110,10 +110,10 @@ describe('Connpass', () => {
         mockGet.mockResolvedValue({ data: dummyPresentationsResponse })
 
         const connpass = new Connpass('test-api-key')
-        const result = await connpass.getEventPresentations('12345')
+        const result = await connpass.getEventPresentations('364')
 
         expect(mockGet).toHaveBeenCalledWith(
-          '/events/12345/presentations',
+          '/events/364/presentations',
           expect.anything(),
         )
         expect(result).toEqual(dummyPresentationsResponse)
@@ -257,10 +257,10 @@ describe('Connpass', () => {
         mockGet.mockResolvedValue({ data: dummyGroupsResponse })
 
         const connpass = new Connpass('test-api-key')
-        const result = await connpass.getUserGroups('test-nickname')
+        const result = await connpass.getUserGroups('haru860')
 
         expect(mockGet).toHaveBeenCalledWith(
-          `/users/test-nickname/groups`,
+          `/users/haru860/groups`,
           expect.anything(),
         )
         expect(result).toEqual(dummyGroupsResponse)
@@ -304,10 +304,10 @@ describe('Connpass', () => {
         mockGet.mockResolvedValue({ data: dummyEventsResponse })
 
         const connpass = new Connpass('test-api-key')
-        const result = await connpass.getUserAttendedEvents('test-nickname')
+        const result = await connpass.getUserAttendedEvents('haru860')
 
         expect(mockGet).toHaveBeenCalledWith(
-          `/users/test-nickname/attended_events`,
+          `/users/haru860/attended_events`,
           expect.anything(),
         )
         expect(result).toEqual(dummyEventsResponse)
@@ -351,10 +351,10 @@ describe('Connpass', () => {
         mockGet.mockResolvedValue({ data: dummyEventsResponse })
 
         const connpass = new Connpass('test-api-key')
-        const result = await connpass.getUserPresenterEvents('test-nickname')
+        const result = await connpass.getUserPresenterEvents('haru860')
 
         expect(mockGet).toHaveBeenCalledWith(
-          `/users/test-nickname/presenter_events`,
+          `/users/haru860/presenter_events`,
           expect.anything(),
         )
         expect(result).toEqual(dummyEventsResponse)
