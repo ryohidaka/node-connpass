@@ -8,7 +8,7 @@
 
 > **GetUsersResponse** = [`BaseResponse`](BaseResponse.md) & `object`
 
-Defined in: [types/user.ts:22](https://github.com/ryohidaka/node-connpass/blob/b69cc26f0ea76e14f3ad320cd4a0c035cb6fc39f/src/types/user.ts#L22)
+Defined in: [types/user.ts:22](https://github.com/ryohidaka/node-connpass/blob/667a81904c823d7acdccd711ac157ba06085425b/src/types/user.ts#L22)
 
 ユーザー一覧のレスポンス
 
