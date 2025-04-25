@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.8.0](https://github.com/ryohidaka/node-connpass/compare/v2.7.2...v2.8.0) (2025-04-25)
+
+
+### Features
+
+* Integrate base URL and API version. ([b69cc26](https://github.com/ryohidaka/node-connpass/commit/b69cc26f0ea76e14f3ad320cd4a0c035cb6fc39f))
+
 ## [2.7.2](https://github.com/ryohidaka/node-connpass/compare/v2.7.1...v2.7.2) (2025-04-24)
 
 
