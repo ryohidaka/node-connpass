@@ -6,7 +6,7 @@
 
 # Class: Connpass
 
-Defined in: [Connpass.ts:23](https://github.com/ryohidaka/node-connpass/blob/16b8353a0b6434f0ecce75ed0536e72fac2b34f8/src/Connpass.ts#L23)
+Defined in: [Connpass.ts:24](https://github.com/ryohidaka/node-connpass/blob/b69cc26f0ea76e14f3ad320cd4a0c035cb6fc39f/src/Connpass.ts#L24)
 
 Connpass APIクライアントクラス
 
@@ -16,7 +16,7 @@ Connpass APIクライアントクラス
 
 > **new Connpass**(`apiKey`): `Connpass`
 
-Defined in: [Connpass.ts:28](https://github.com/ryohidaka/node-connpass/blob/16b8353a0b6434f0ecce75ed0536e72fac2b34f8/src/Connpass.ts#L28)
+Defined in: [Connpass.ts:28](https://github.com/ryohidaka/node-connpass/blob/b69cc26f0ea76e14f3ad320cd4a0c035cb6fc39f/src/Connpass.ts#L28)
 
 #### Parameters
 
@@ -34,7 +34,7 @@ Defined in: [Connpass.ts:28](https://github.com/ryohidaka/node-connpass/blob/16b
 
 > **getEventPresentations**(`id`, `query?`): `Promise`\<[`GetEventPresentationsResponse`](../type-aliases/GetEventPresentationsResponse.md)\>
 
-Defined in: [Connpass.ts:103](https://github.com/ryohidaka/node-connpass/blob/16b8353a0b6434f0ecce75ed0536e72fac2b34f8/src/Connpass.ts#L103)
+Defined in: [Connpass.ts:103](https://github.com/ryohidaka/node-connpass/blob/b69cc26f0ea76e14f3ad320cd4a0c035cb6fc39f/src/Connpass.ts#L103)
 
 イベントに投稿された資料一覧
 
@@ -64,7 +64,7 @@ Defined in: [Connpass.ts:103](https://github.com/ryohidaka/node-connpass/blob/16
 
 > **getEvents**(`query?`): `Promise`\<[`GetEventsResponse`](../type-aliases/GetEventsResponse.md)\>
 
-Defined in: [Connpass.ts:88](https://github.com/ryohidaka/node-connpass/blob/16b8353a0b6434f0ecce75ed0536e72fac2b34f8/src/Connpass.ts#L88)
+Defined in: [Connpass.ts:88](https://github.com/ryohidaka/node-connpass/blob/b69cc26f0ea76e14f3ad320cd4a0c035cb6fc39f/src/Connpass.ts#L88)
 
 イベント一覧
 
@@ -92,7 +92,7 @@ Defined in: [Connpass.ts:88](https://github.com/ryohidaka/node-connpass/blob/16b
 
 > **getGroups**(`query?`): `Promise`\<[`GetGroupsResponse`](../type-aliases/GetGroupsResponse.md)\>
 
-Defined in: [Connpass.ts:123](https://github.com/ryohidaka/node-connpass/blob/16b8353a0b6434f0ecce75ed0536e72fac2b34f8/src/Connpass.ts#L123)
+Defined in: [Connpass.ts:123](https://github.com/ryohidaka/node-connpass/blob/b69cc26f0ea76e14f3ad320cd4a0c035cb6fc39f/src/Connpass.ts#L123)
 
 グループ一覧
 
@@ -120,7 +120,7 @@ Defined in: [Connpass.ts:123](https://github.com/ryohidaka/node-connpass/blob/16
 
 > **getUserAttendedEvents**(`nickname`, `query?`): `Promise`\<[`GetUserAttendedEventsResponse`](../type-aliases/GetUserAttendedEventsResponse.md)\>
 
-Defined in: [Connpass.ts:173](https://github.com/ryohidaka/node-connpass/blob/16b8353a0b6434f0ecce75ed0536e72fac2b34f8/src/Connpass.ts#L173)
+Defined in: [Connpass.ts:173](https://github.com/ryohidaka/node-connpass/blob/b69cc26f0ea76e14f3ad320cd4a0c035cb6fc39f/src/Connpass.ts#L173)
 
 ユーザー参加イベント一覧
 
@@ -154,7 +154,7 @@ Defined in: [Connpass.ts:173](https://github.com/ryohidaka/node-connpass/blob/16
 
 > **getUserGroups**(`nickname`, `query?`): `Promise`\<[`GetUserGroupsResponse`](../type-aliases/GetUserGroupsResponse.md)\>
 
-Defined in: [Connpass.ts:152](https://github.com/ryohidaka/node-connpass/blob/16b8353a0b6434f0ecce75ed0536e72fac2b34f8/src/Connpass.ts#L152)
+Defined in: [Connpass.ts:152](https://github.com/ryohidaka/node-connpass/blob/b69cc26f0ea76e14f3ad320cd4a0c035cb6fc39f/src/Connpass.ts#L152)
 
 ユーザー所属グループ一覧
 
@@ -188,7 +188,7 @@ Defined in: [Connpass.ts:152](https://github.com/ryohidaka/node-connpass/blob/16
 
 > **getUserPresenterEvents**(`nickname`, `query?`): `Promise`\<[`GetUserPresenterEventsResponse`](../type-aliases/GetUserPresenterEventsResponse.md)\>
 
-Defined in: [Connpass.ts:194](https://github.com/ryohidaka/node-connpass/blob/16b8353a0b6434f0ecce75ed0536e72fac2b34f8/src/Connpass.ts#L194)
+Defined in: [Connpass.ts:194](https://github.com/ryohidaka/node-connpass/blob/b69cc26f0ea76e14f3ad320cd4a0c035cb6fc39f/src/Connpass.ts#L194)
 
 ユーザー発表イベント一覧
 
@@ -222,7 +222,7 @@ Defined in: [Connpass.ts:194](https://github.com/ryohidaka/node-connpass/blob/16
 
 > **getUsers**(`query?`): `Promise`\<[`GetUsersResponse`](../type-aliases/GetUsersResponse.md)\>
 
-Defined in: [Connpass.ts:137](https://github.com/ryohidaka/node-connpass/blob/16b8353a0b6434f0ecce75ed0536e72fac2b34f8/src/Connpass.ts#L137)
+Defined in: [Connpass.ts:137](https://github.com/ryohidaka/node-connpass/blob/b69cc26f0ea76e14f3ad320cd4a0c035cb6fc39f/src/Connpass.ts#L137)
 
 ユーザー一覧
 

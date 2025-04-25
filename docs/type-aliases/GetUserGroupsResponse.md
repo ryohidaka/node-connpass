@@ -8,7 +8,7 @@
 
 > **GetUserGroupsResponse** = [`BaseResponse`](BaseResponse.md) & `object`
 
-Defined in: [types/user.ts:63](https://github.com/ryohidaka/node-connpass/blob/16b8353a0b6434f0ecce75ed0536e72fac2b34f8/src/types/user.ts#L63)
+Defined in: [types/user.ts:63](https://github.com/ryohidaka/node-connpass/blob/b69cc26f0ea76e14f3ad320cd4a0c035cb6fc39f/src/types/user.ts#L63)
 
 ユーザー所属グループ一覧のレスポンス
 
