@@ -16,6 +16,7 @@ import {
   GetUsersQuery,
   GetUsersResponse,
 } from '.'
+import { BASE_URL } from './constants'
 
 /**
  * Connpass APIクライアントクラス
@@ -23,14 +24,13 @@ import {
 export class Connpass {
   private readonly apiKey: string
   private readonly client: AxiosInstance
-  private readonly API_VERSION: string = 'v2'
 
   constructor(apiKey: string) {
     this.apiKey = apiKey
 
     // Axiosインスタンスを作成
     this.client = axios.create({
-      baseURL: `${Connpass.getBaseUrl()}/${this.API_VERSION}`,
+      baseURL: Connpass.getBaseUrl(),
       headers: {
         'X-API-Key': this.apiKey,
       },
@@ -42,7 +42,7 @@ export class Connpass {
    */
   private static getBaseUrl(): string {
     const isDev = import.meta.env.MODE === 'development'
-    return isDev ? '/api' : 'https://connpass.com/api'
+    return isDev ? '/api' : BASE_URL
   }
 
   /**
