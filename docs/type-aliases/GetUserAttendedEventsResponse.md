@@ -8,7 +8,7 @@
 
 > **GetUserAttendedEventsResponse** = [`BaseResponse`](BaseResponse.md) & `object`
 
-Defined in: [types/user.ts:76](https://github.com/ryohidaka/node-connpass/blob/de28db452011c09c14da82f297b63bc8ba518499/src/types/user.ts#L76)
+Defined in: [types/user.ts:76](https://github.com/ryohidaka/node-connpass/blob/3b8143bd38fb6f71640f8b4640bd0b7d3330fd98/src/types/user.ts#L76)
 
 ユーザーが参加したイベント一覧のレスポンス
 
