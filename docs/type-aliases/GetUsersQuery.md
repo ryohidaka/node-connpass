@@ -8,6 +8,6 @@
 
 > **GetUsersQuery** = `Partial`\<[`BaseQuery`](BaseQuery.md) & `object`\>
 
-Defined in: [types/user.ts:12](https://github.com/ryohidaka/node-connpass/blob/cdf29d22c097bb183dcf02717d3ac793e2330b09/src/types/user.ts#L12)
+Defined in: [types/user.ts:12](https://github.com/ryohidaka/node-connpass/blob/de28db452011c09c14da82f297b63bc8ba518499/src/types/user.ts#L12)
 
 ユーザー一覧のパラメータ
