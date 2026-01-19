@@ -6,7 +6,7 @@
 
 # Class: ConnpassV1
 
-Defined in: [v1/index.ts:4](https://github.com/ryohidaka/node-connpass/blob/3b8143bd38fb6f71640f8b4640bd0b7d3330fd98/src/v1/index.ts#L4)
+Defined in: [v1/index.ts:4](https://github.com/ryohidaka/node-connpass/blob/bdc3e3e925e5232b22366c31b91338c925c14f30/src/v1/index.ts#L4)
 
 ## Constructors
 
@@ -14,7 +14,7 @@ Defined in: [v1/index.ts:4](https://github.com/ryohidaka/node-connpass/blob/3b81
 
 > **new ConnpassV1**(): `ConnpassV1`
 
-Defined in: [v1/index.ts:9](https://github.com/ryohidaka/node-connpass/blob/3b8143bd38fb6f71640f8b4640bd0b7d3330fd98/src/v1/index.ts#L9)
+Defined in: [v1/index.ts:9](https://github.com/ryohidaka/node-connpass/blob/bdc3e3e925e5232b22366c31b91338c925c14f30/src/v1/index.ts#L9)
 
 #### Returns
 
@@ -26,7 +26,7 @@ Defined in: [v1/index.ts:9](https://github.com/ryohidaka/node-connpass/blob/3b81
 
 > **getEventsV1**(`query?`): `Promise`\<`GetEventsResponseV1` & `object`\>
 
-Defined in: [v1/index.ts:17](https://github.com/ryohidaka/node-connpass/blob/3b8143bd38fb6f71640f8b4640bd0b7d3330fd98/src/v1/index.ts#L17)
+Defined in: [v1/index.ts:17](https://github.com/ryohidaka/node-connpass/blob/bdc3e3e925e5232b22366c31b91338c925c14f30/src/v1/index.ts#L17)
 
 #### Parameters
 

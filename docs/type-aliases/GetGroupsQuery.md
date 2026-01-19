@@ -8,6 +8,6 @@
 
 > **GetGroupsQuery** = `Partial`\<[`BaseQuery`](BaseQuery.md) & `object`\>
 
-Defined in: [types/group.ts:6](https://github.com/ryohidaka/node-connpass/blob/3b8143bd38fb6f71640f8b4640bd0b7d3330fd98/src/types/group.ts#L6)
+Defined in: [types/group.ts:6](https://github.com/ryohidaka/node-connpass/blob/bdc3e3e925e5232b22366c31b91338c925c14f30/src/types/group.ts#L6)
 
 グループ一覧のパラメータ
