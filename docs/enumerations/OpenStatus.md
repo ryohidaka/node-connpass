@@ -6,7 +6,7 @@
 
 # Enumeration: OpenStatus
 
-Defined in: [types/event.ts:120](https://github.com/ryohidaka/node-connpass/blob/69c252bcaba4e1a0e8bfeb8ac8ae6925817fe4a5/src/types/event.ts#L120)
+Defined in: [types/event.ts:120](https://github.com/ryohidaka/node-connpass/blob/90a34ccd18d93ed9b80e506375feabcc6ea818db/src/types/event.ts#L120)
 
 イベントの開催状態
 
@@ -16,7 +16,7 @@ Defined in: [types/event.ts:120](https://github.com/ryohidaka/node-connpass/blob
 
 > **CANCELLED**: `"cancelled"`
 
-Defined in: [types/event.ts:128](https://github.com/ryohidaka/node-connpass/blob/69c252bcaba4e1a0e8bfeb8ac8ae6925817fe4a5/src/types/event.ts#L128)
+Defined in: [types/event.ts:128](https://github.com/ryohidaka/node-connpass/blob/90a34ccd18d93ed9b80e506375feabcc6ea818db/src/types/event.ts#L128)
 
 ***
 
@@ -24,7 +24,7 @@ Defined in: [types/event.ts:128](https://github.com/ryohidaka/node-connpass/blob
 
 > **CLOSE**: `"close"`
 
-Defined in: [types/event.ts:126](https://github.com/ryohidaka/node-connpass/blob/69c252bcaba4e1a0e8bfeb8ac8ae6925817fe4a5/src/types/event.ts#L126)
+Defined in: [types/event.ts:126](https://github.com/ryohidaka/node-connpass/blob/90a34ccd18d93ed9b80e506375feabcc6ea818db/src/types/event.ts#L126)
 
 ***
 
@@ -32,7 +32,7 @@ Defined in: [types/event.ts:126](https://github.com/ryohidaka/node-connpass/blob
 
 > **OPEN**: `"open"`
 
-Defined in: [types/event.ts:124](https://github.com/ryohidaka/node-connpass/blob/69c252bcaba4e1a0e8bfeb8ac8ae6925817fe4a5/src/types/event.ts#L124)
+Defined in: [types/event.ts:124](https://github.com/ryohidaka/node-connpass/blob/90a34ccd18d93ed9b80e506375feabcc6ea818db/src/types/event.ts#L124)
 
 ***
 
@@ -40,4 +40,4 @@ Defined in: [types/event.ts:124](https://github.com/ryohidaka/node-connpass/blob
 
 > **PRE\_OPEN**: `"preopen"`
 
-Defined in: [types/event.ts:122](https://github.com/ryohidaka/node-connpass/blob/69c252bcaba4e1a0e8bfeb8ac8ae6925817fe4a5/src/types/event.ts#L122)
+Defined in: [types/event.ts:122](https://github.com/ryohidaka/node-connpass/blob/90a34ccd18d93ed9b80e506375feabcc6ea818db/src/types/event.ts#L122)

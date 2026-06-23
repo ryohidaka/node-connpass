@@ -8,6 +8,6 @@
 
 > **GetEventsQuery** = `Partial`\<[`BaseQuery`](BaseQuery.md) & `object`\>
 
-Defined in: [types/event.ts:7](https://github.com/ryohidaka/node-connpass/blob/69c252bcaba4e1a0e8bfeb8ac8ae6925817fe4a5/src/types/event.ts#L7)
+Defined in: [types/event.ts:7](https://github.com/ryohidaka/node-connpass/blob/90a34ccd18d93ed9b80e506375feabcc6ea818db/src/types/event.ts#L7)
 
 イベント一覧のパラメータ

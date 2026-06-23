@@ -8,6 +8,6 @@
 
 > **GetUserPresenterEventsQuery** = [`BaseQuery`](BaseQuery.md)
 
-Defined in: [types/user.ts:84](https://github.com/ryohidaka/node-connpass/blob/69c252bcaba4e1a0e8bfeb8ac8ae6925817fe4a5/src/types/user.ts#L84)
+Defined in: [types/user.ts:84](https://github.com/ryohidaka/node-connpass/blob/90a34ccd18d93ed9b80e506375feabcc6ea818db/src/types/user.ts#L84)
 
 ユーザーが発表したイベント一覧のパラメータ

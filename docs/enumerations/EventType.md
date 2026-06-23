@@ -6,7 +6,7 @@
 
 # Enumeration: EventType
 
-Defined in: [types/event.ts:110](https://github.com/ryohidaka/node-connpass/blob/69c252bcaba4e1a0e8bfeb8ac8ae6925817fe4a5/src/types/event.ts#L110)
+Defined in: [types/event.ts:110](https://github.com/ryohidaka/node-connpass/blob/90a34ccd18d93ed9b80e506375feabcc6ea818db/src/types/event.ts#L110)
 
 イベント参加タイプ
 
@@ -16,7 +16,7 @@ Defined in: [types/event.ts:110](https://github.com/ryohidaka/node-connpass/blob
 
 > **ADVERTISEMENT**: `"advertisement"`
 
-Defined in: [types/event.ts:114](https://github.com/ryohidaka/node-connpass/blob/69c252bcaba4e1a0e8bfeb8ac8ae6925817fe4a5/src/types/event.ts#L114)
+Defined in: [types/event.ts:114](https://github.com/ryohidaka/node-connpass/blob/90a34ccd18d93ed9b80e506375feabcc6ea818db/src/types/event.ts#L114)
 
 ***
 
@@ -24,4 +24,4 @@ Defined in: [types/event.ts:114](https://github.com/ryohidaka/node-connpass/blob
 
 > **PARTICIPATION**: `"participation"`
 
-Defined in: [types/event.ts:112](https://github.com/ryohidaka/node-connpass/blob/69c252bcaba4e1a0e8bfeb8ac8ae6925817fe4a5/src/types/event.ts#L112)
+Defined in: [types/event.ts:112](https://github.com/ryohidaka/node-connpass/blob/90a34ccd18d93ed9b80e506375feabcc6ea818db/src/types/event.ts#L112)

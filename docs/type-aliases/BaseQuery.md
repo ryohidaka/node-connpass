@@ -8,7 +8,7 @@
 
 > **BaseQuery** = `object`
 
-Defined in: [types/base.ts:6](https://github.com/ryohidaka/node-connpass/blob/69c252bcaba4e1a0e8bfeb8ac8ae6925817fe4a5/src/types/base.ts#L6)
+Defined in: [types/base.ts:6](https://github.com/ryohidaka/node-connpass/blob/90a34ccd18d93ed9b80e506375feabcc6ea818db/src/types/base.ts#L6)
 
 共通リクエスト
 
@@ -18,7 +18,7 @@ Defined in: [types/base.ts:6](https://github.com/ryohidaka/node-connpass/blob/69
 
 > **count**: `number`
 
-Defined in: [types/base.ts:10](https://github.com/ryohidaka/node-connpass/blob/69c252bcaba4e1a0e8bfeb8ac8ae6925817fe4a5/src/types/base.ts#L10)
+Defined in: [types/base.ts:10](https://github.com/ryohidaka/node-connpass/blob/90a34ccd18d93ed9b80e506375feabcc6ea818db/src/types/base.ts#L10)
 
 取得件数（1〜100、デフォルト:10）
 
@@ -28,6 +28,6 @@ Defined in: [types/base.ts:10](https://github.com/ryohidaka/node-connpass/blob/6
 
 > **start**: `number`
 
-Defined in: [types/base.ts:8](https://github.com/ryohidaka/node-connpass/blob/69c252bcaba4e1a0e8bfeb8ac8ae6925817fe4a5/src/types/base.ts#L8)
+Defined in: [types/base.ts:8](https://github.com/ryohidaka/node-connpass/blob/90a34ccd18d93ed9b80e506375feabcc6ea818db/src/types/base.ts#L8)
 
 検索の開始位置（1以上、デフォルト:1）
