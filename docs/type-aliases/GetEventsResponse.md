@@ -8,7 +8,7 @@
 
 > **GetEventsResponse** = [`BaseResponse`](BaseResponse.md) & `object`
 
-Defined in: [types/event.ts:37](https://github.com/ryohidaka/node-connpass/blob/90a34ccd18d93ed9b80e506375feabcc6ea818db/src/types/event.ts#L37)
+Defined in: [types/event.ts:37](https://github.com/ryohidaka/node-connpass/blob/4495d4c4a015c3a56f00311d3d9264e9f46138c0/src/types/event.ts#L37)
 
 イベント一覧のレスポンス
 
